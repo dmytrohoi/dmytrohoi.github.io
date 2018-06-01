@@ -12,7 +12,8 @@ Used MaterialDesignIcons [license source](https://github.com/Templarian/Material
 
 ## Contacts
 
-<table align="center">
+<div align="center">
+<table>
     <tr>
     <td>
         </br><div align="center">
@@ -21,10 +22,12 @@ Used MaterialDesignIcons [license source](https://github.com/Templarian/Material
         <div align="center">
         <i>Creative Digital Future Media</i>
         </div></br>
+        <div align="center">
         <code>Python (J), SMM (M), Design (J)</code>
+        </div>
+        <div align="center">
+        <code>Copywrite (S), Art-writing (M), PM (M)</code></div>
         </br>
-        <code>Copywrite (S), Art-writing (M), PM (M)</code>
-        </br></br>
         <div align="center">
         <a href="http://dmytrohoi.github.io/"><img src="https://dmytrohoi.github.io/images/social/st.png"></a> <a href="http://fb.com/dmytro.hoi"><img src="https://dmytrohoi.github.io/images/social/fb.png"></a><a href="https://github.com/dmytrohoi"><img src="https://dmytrohoi.github.io/images/social/gh.png"></a><a href="https://twitter.com/criticoffer"><img src="https://dmytrohoi.github.io/images/social/tw.png"></a>
         </div>
@@ -39,5 +42,5 @@ Used MaterialDesignIcons [license source](https://github.com/Templarian/Material
     </td>
     </tr>
 </table>
-
+</div>
 [:up:](#dmytrohoigithubio)
