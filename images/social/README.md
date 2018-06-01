@@ -27,7 +27,8 @@ Used MaterialDesignIcons [license source](https://github.com/Templarian/Material
         </br></br>
         <div align="center">
         <a href="http://dmytrohoi.github.io/"><img src="https://dmytrohoi.github.io/images/social/st.png"></a> <a href="http://fb.com/dmytro.hoi"><img src="https://dmytrohoi.github.io/images/social/fb.png"></a><a href="https://github.com/dmytrohoi"><img src="https://dmytrohoi.github.io/images/social/gh.png"></a><a href="https://twitter.com/criticoffer"><img src="https://dmytrohoi.github.io/images/social/tw.png"></a>
-        </br>
+        </div>
+        <div align="center">
         <a href="http://dmytrohoi.github.io/cv"><img src="https://dmytrohoi.github.io/images/social/cv.png"></a> <a href="http://www.linkedin.com/in/dmytrohoi"><img src="https://dmytrohoi.github.io/images/social/li.png"></a><a href="https://instagram.com/dmhoi78"><img src="https://dmytrohoi.github.io/images/social/insta.png"></a><a href="https://youtube.com/channel/UCOOftc_XjycxIsDbWsoBFtA"><img src="https://dmytrohoi.github.io/images/social/yt.png"></a>
         </div>
     </td>
@@ -39,4 +40,4 @@ Used MaterialDesignIcons [license source](https://github.com/Templarian/Material
     </tr>
 </table>
 
-[:up:](#-dmytrohoi.github.io)
+[:up:](#dmytrohoigithubio)
