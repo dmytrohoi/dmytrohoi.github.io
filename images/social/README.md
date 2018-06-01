@@ -16,44 +16,27 @@ Used MaterialDesignIcons [license source](https://github.com/Templarian/Material
     <tr>
     <td>
         </br><div align="center">
-        ** Dmytro Hoi **
+        <b> Dmytro Hoi </b>
         </div></br>
         <div align="center">
-        *Creative Digital Future Media*
+        <i>Creative Digital Future Media</i>
         </div></br>
-        `Python (J), SMM (M), Design (J)`
+        <code>Python (J), SMM (M), Design (J)</code>
         </br>
-        `Copywrite (S), Art-writing (M), PM (M)`
+        <code>Copywrite (S), Art-writing (M), PM (M)</code>
         </br></br>
         <div align="center">
-        [![My Site][st0]][st1] [![][fb0]][fb1] [![][gh0]][gh1] [![][tw0]][tw1]
+        <a href="http://dmytrohoi.github.io/"><img src="https://dmytrohoi.github.io/images/social/st.png"></a> <a href="http://fb.com/dmytro.hoi"><img src="https://dmytrohoi.github.io/images/social/fb.png"></a><a href="https://github.com/dmytrohoi"><img src="https://dmytrohoi.github.io/images/social/gh.png"></a><a href="https://twitter.com/criticoffer"><img src="https://dmytrohoi.github.io/images/social/tw.png"></a>
         </br>
-        [![CV][cv0]][cv1] [![][li0]][li1] [![][inst0]][inst1] [![][yt0]][yt1]
+        <a href="http://dmytrohoi.github.io/cv"><img src="https://dmytrohoi.github.io/images/social/cv.png"></a> <a href="http://www.linkedin.com/in/dmytrohoi"><img src="https://dmytrohoi.github.io/images/social/li.png"></a><a href="https://instagram.com/dmhoi78"><img src="https://dmytrohoi.github.io/images/social/insta.png"></a><a href="https://youtube.com/channel/UCOOftc_XjycxIsDbWsoBFtA"><img src="https://dmytrohoi.github.io/images/social/yt.png"></a>
         </div>
     </td>
     <td>
         <div align="center">
-        ![][ava0]
+        <img src="https://dmytrohoi.github.io/images/avatar/avatar0.png">
         </div>
     </td>
     </tr>
 </table>
 
-
- [st0]: https://dmytrohoi.github.io/images/social/st.png
- [st1]: http://dmytrohoi.github.io/
- [fb0]: https://dmytrohoi.github.io/images/social/fb.png
- [fb1]: http://fb.com/dmytro.hoi
- [gh0]: https://dmytrohoi.github.io/images/social/gh.png
- [gh1]: https://github.com/dmytrohoi
- [tw0]: https://dmytrohoi.github.io/images/social/tw.png
- [tw1]: https://twitter.com/criticoffer
- [cv0]: https://dmytrohoi.github.io/images/social/cv.png
- [cv1]: http://dmytrohoi.github.io/cv
- [li0]: https://dmytrohoi.github.io/images/social/li.png
- [li1]: http://www.linkedin.com/in/dmytrohoi
- [inst0]: https://dmytrohoi.github.io/images/social/insta.png
- [inst1]: https://instagram.com/dmhoi78
- [yt0]: https://dmytrohoi.github.io/images/social/yt.png
- [yt1]: https://youtube.com/channel/UCOOftc_XjycxIsDbWsoBFtA
- [ava0]: https://dmytrohoi.github.io/images/avatar/avatar0.png
+[:up:](#-dmytrohoi.github.io)
