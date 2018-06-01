@@ -16,6 +16,11 @@ Used MaterialDesignIcons [license source](https://github.com/Templarian/Material
 <table>
     <tr>
     <td>
+        <div align="center">
+        <img src="https://dmytrohoi.github.io/images/avatar/avatar0.png">
+        </div>
+    </td>
+    <td>
         </br><div align="center">
         <b> Dmytro Hoi </b>
         </div></br>
@@ -33,11 +38,6 @@ Used MaterialDesignIcons [license source](https://github.com/Templarian/Material
         </div>
         <div align="center">
         <a href="http://dmytrohoi.github.io/cv"><img src="https://dmytrohoi.github.io/images/social/cv.png"></a> <a href="http://www.linkedin.com/in/dmytrohoi"><img src="https://dmytrohoi.github.io/images/social/li.png"></a><a href="https://instagram.com/dmhoi78"><img src="https://dmytrohoi.github.io/images/social/insta.png"></a><a href="https://youtube.com/channel/UCOOftc_XjycxIsDbWsoBFtA"><img src="https://dmytrohoi.github.io/images/social/yt.png"></a>
-        </div>
-    </td>
-    <td>
-        <div align="center">
-        <img src="https://dmytrohoi.github.io/images/avatar/avatar0.png">
         </div>
     </td>
     </tr>
