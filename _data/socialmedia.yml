@@ -1,41 +1,42 @@
 - name: GitHub
-  url: http://github.com/phlow
+  url: http://github.com/dmytrohoi
   class: icon-github
-  title: Code und mehr...
+  title: "My Open Source Code"
 
-- name: YouTube
-  url: http://www.youtube.com/PhlowMedia
-  class: icon-youtube
-  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
+- name: Facebook
+  url: http://www.facebook.com/dmytro.hoi
+  class: icon-facebook
+  title: ""
 
 - name: Twitter
-  url: http://twitter.com/phlow
+  url: http://twitter.com/criticoffer
   class: icon-twitter
-  title: "Immer das Neuste von Phlow gibt es auf Twitter"
+  title: "My Twi"
 
-- name: Mixcloud
-  url: http://www.mixcloud.com/phlow/
-  class: icon-cloud
-  title: "Mixe, was sonst?"
+- name: Instagram
+  url: http://instagram.com/dmhoi78
+  class: icon-instagram
+  title: "Photo"
 
-- name: Phlow YouTube Google+
-  url: https://plus.google.com/u/0/+Phlow
-  class: icon-googleplus
-  title: "YouTube Google+"
+- name: YouTube
+  url: http://www.youtube.com/
+  class: icon-youtube
+  title: ""
 
-# - name: Facebook
-#   url: http://www.facebook.com/
-#   class: icon-facebook
-#   title: ""
+
+# - name: Mixcloud
+#   url: http://www.mixcloud.com/phlow/
+#   class: icon-cloud
+#   title: "Mixe, was sonst?"
+
+# - name: Phlow YouTube Google+
+#   url: https://plus.google.com/u/0/+Phlow
+#   class: icon-googleplus
+#   title: "YouTube Google+"
 
 # - name: Soundcloud
 #   url: http://soundcloud.com/
 #   class: icon-soundcloud
-#   title: ""
-
-# - name: Instagram
-#   url: http://instagram.com/
-#   class: icon-instagram
 #   title: ""
 
 # - name: Pinterest
