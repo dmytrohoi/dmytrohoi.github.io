@@ -7,7 +7,7 @@ teaser: "Мої контакти"
 permalink: "/contact/"
 ---
 
-<table align="center">
+<table style="border:0px; padding:3px; text-align:center;" align="center">
     <tr>
     <td>
         <div align="center">
@@ -19,8 +19,8 @@ permalink: "/contact/"
         <pre>Python (J), SMM (M), Design (J)</pre>
         <pre>Copywrite (S), Art-writing (M), PM (M)</pre>
         <div align="center">
-        <p><a href="https://dmytrohoi.github.io/"><img src="https://dmytrohoi.github.io/images/social/st.png"></a> <a href="https://fb.com/dmytro.hoi"><img src="https://dmytrohoi.github.io/images/social/fb.png"></a><a href="https://github.com/dmytrohoi"><img src="https://dmytrohoi.github.io/images/social/gh.png"></a><a href="https://twitter.com/criticoffer"><img src="https://dmytrohoi.github.io/images/social/tw.png"></a></p>
-        <p><a href="https://dmytrohoi.github.io/cv"><img src="https://dmytrohoi.github.io/images/social/cv.png"></a> <a href="https://www.linkedin.com/in/dmytrohoi"><img src="https://dmytrohoi.github.io/images/social/li.png"></a><a href="https://instagram.com/dmhoi78"><img src="https://dmytrohoi.github.io/images/social/insta.png"></a><a href="https://youtube.com/channel/UCOOftc_XjycxIsDbWsoBFtA"><img src="https://dmytrohoi.github.io/images/social/yt.png"></a></p>
+        <p><a href="https://dmytrohoi.github.io/"><img border="0" src="https://dmytrohoi.github.io/images/social/st.png"></a> <a href="https://fb.com/dmytro.hoi"><img border="0" src="https://dmytrohoi.github.io/images/social/fb.png"></a><a href="https://github.com/dmytrohoi"><img border="0" src="https://dmytrohoi.github.io/images/social/gh.png"></a><a href="https://twitter.com/criticoffer"><img border="0" src="https://dmytrohoi.github.io/images/social/tw.png"></a></p>
+        <p><a href="https://dmytrohoi.github.io/cv"><img border="0" src="https://dmytrohoi.github.io/images/social/cv.png"></a> <a href="https://www.linkedin.com/in/dmytrohoi"><img border="0" src="https://dmytrohoi.github.io/images/social/li.png"></a><a href="https://instagram.com/dmhoi78"><img border="0" src="https://dmytrohoi.github.io/images/social/insta.png"></a><a href="https://youtube.com/channel/UCOOftc_XjycxIsDbWsoBFtA"><img border="0" src="https://dmytrohoi.github.io/images/social/yt.png"></a></p>
         </div>
     </td>
     <td>
@@ -32,7 +32,7 @@ permalink: "/contact/"
 </table>
 
 
-Використовуйте Telegram або Facebook, якщо вам потрібно з'язатись зі мною.'
+<i>Використовуйте Telegram або Facebook, якщо вам потрібно з'язатись зі мною.</i>
 
 А також:
 <div align="center">
