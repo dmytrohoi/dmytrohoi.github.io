@@ -11,16 +11,18 @@ permalink: "/contact/"
     <tr>
     <td>
         <div align="center">
-        <b> Dmytro Hoi </b>
+        <p></p><b> Dmytro Hoi </b><p></p>
         </div>
         <div align="center">
-        <i>Creative Digital Future Media</i>
+        <i>Creative Digital Future Media</i><p></p>
         </div>
+        <div align="center">
         <pre>Python (J), SMM (M), Design (J)</pre>
         <pre>Copywrite (S), Art-writing (M), PM (M)</pre>
+        </div>
         <div align="center">
-        <p><a href="https://dmytrohoi.github.io/"><img border="0" src="https://dmytrohoi.github.io/images/social/st.png"></a> <a href="https://fb.com/dmytro.hoi"><img border="0" src="https://dmytrohoi.github.io/images/social/fb.png"></a><a href="https://github.com/dmytrohoi"><img border="0" src="https://dmytrohoi.github.io/images/social/gh.png"></a><a href="https://twitter.com/criticoffer"><img border="0" src="https://dmytrohoi.github.io/images/social/tw.png"></a></p>
-        <p><a href="https://dmytrohoi.github.io/cv"><img border="0" src="https://dmytrohoi.github.io/images/social/cv.png"></a> <a href="https://www.linkedin.com/in/dmytrohoi"><img border="0" src="https://dmytrohoi.github.io/images/social/li.png"></a><a href="https://instagram.com/dmhoi78"><img border="0" src="https://dmytrohoi.github.io/images/social/insta.png"></a><a href="https://youtube.com/channel/UCOOftc_XjycxIsDbWsoBFtA"><img border="0" src="https://dmytrohoi.github.io/images/social/yt.png"></a></p>
+        <p><a href="https://dmytrohoi.github.io/" style="all: none;"><img border="0" src="https://dmytrohoi.github.io/images/social/st.png"></a> <a href="https://fb.com/dmytro.hoi" style="all: none;"><img border="0" src="https://dmytrohoi.github.io/images/social/fb.png"></a><a href="https://github.com/dmytrohoi" style="all: none;"><img border="0" src="https://dmytrohoi.github.io/images/social/gh.png"></a><a href="https://twitter.com/criticoffer" style="all: none;"><img border="0" src="https://dmytrohoi.github.io/images/social/tw.png"></a></p>
+        <p><a href="https://dmytrohoi.github.io/cv" style="all: none;"><img border="0" src="https://dmytrohoi.github.io/images/social/cv.png"></a> <a href="https://www.linkedin.com/in/dmytrohoi" style="all: none;"><img border="0" src="https://dmytrohoi.github.io/images/social/li.png"></a><a href="https://instagram.com/dmhoi78" style="all: none;"><img border="0" src="https://dmytrohoi.github.io/images/social/insta.png"></a><a href="https://youtube.com/channel/UCOOftc_XjycxIsDbWsoBFtA" style="all: none;"><img border="0" src="https://dmytrohoi.github.io/images/social/yt.png"></a></p>
         </div>
     </td>
     <td>
