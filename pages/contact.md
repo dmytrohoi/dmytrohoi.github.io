@@ -16,14 +16,14 @@ permalink: "/contact/"
         <div align="center">
         <i>Creative Digital Future Media</i>
         </div></br>
-        <code>Python (J), SMM (M), Design (J)</code>
+        <pre>Python (J), SMM (M), Design (J)</pre>
         </br>
-        <code>Copywrite (S), Art-writing (M), PM (M)</code>
+        <pre>Copywrite (S), Art-writing (M), PM (M)</pre>
         </br></br>
         <div align="center">
-        <a href="http://dmytrohoi.github.io/"><img src="https://dmytrohoi.github.io/images/social/st.png"></a> <a href="http://fb.com/dmytro.hoi"><img src="https://dmytrohoi.github.io/images/social/fb.png"></a><a href="https://github.com/dmytrohoi"><img src="https://dmytrohoi.github.io/images/social/gh.png"></a><a href="https://twitter.com/criticoffer"><img src="https://dmytrohoi.github.io/images/social/tw.png"></a>
+        <a href="https://dmytrohoi.github.io/"><img src="https://dmytrohoi.github.io/images/social/st.png"></a> <a href="https://fb.com/dmytro.hoi"><img src="https://dmytrohoi.github.io/images/social/fb.png"></a><a href="https://github.com/dmytrohoi"><img src="https://dmytrohoi.github.io/images/social/gh.png"></a><a href="https://twitter.com/criticoffer"><img src="https://dmytrohoi.github.io/images/social/tw.png"></a>
         </br>
-        <a href="http://dmytrohoi.github.io/cv"><img src="https://dmytrohoi.github.io/images/social/cv.png"></a> <a href="http://www.linkedin.com/in/dmytrohoi"><img src="https://dmytrohoi.github.io/images/social/li.png"></a><a href="https://instagram.com/dmhoi78"><img src="https://dmytrohoi.github.io/images/social/insta.png"></a><a href="https://youtube.com/channel/UCOOftc_XjycxIsDbWsoBFtA"><img src="https://dmytrohoi.github.io/images/social/yt.png"></a>
+        <a href="https://dmytrohoi.github.io/cv"><img src="https://dmytrohoi.github.io/images/social/cv.png"></a> <a href="https://www.linkedin.com/in/dmytrohoi"><img src="https://dmytrohoi.github.io/images/social/li.png"></a><a href="https://instagram.com/dmhoi78"><img src="https://dmytrohoi.github.io/images/social/insta.png"></a><a href="https://youtube.com/channel/UCOOftc_XjycxIsDbWsoBFtA"><img src="https://dmytrohoi.github.io/images/social/yt.png"></a>
         </div>
     </td>
     <td>
@@ -35,7 +35,7 @@ permalink: "/contact/"
 </table>
 
 
- {% include alert info='Використовуйте Telegram або Facebook, якщо вам потрібно з'язатись зі мною.' %}
+Використовуйте Telegram або Facebook, якщо вам потрібно з'язатись зі мною.'
 
 А також:
 
