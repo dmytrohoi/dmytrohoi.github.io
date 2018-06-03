@@ -11,18 +11,19 @@ widget1:
   title: "Blog | Блог"
   url: '/blog/'
   image: widget-1-302x182.png
-  text: 'Кожен має свою думку і якщо думка кожного окремо стосується чогось більш персонального - вона має бути виражена.<br/> Це саме про це. <br/><br/>Варто чи не варто читати - вирішуєте ви.'
+  text: 'Кожен має свою думку і якщо думка кожного окремо стосується чогось більш персонального - вона має бути виражена.<br/> Це саме про це.'
 widget2:
   title: "Projects | Проекти"
   url: '/projects/'
   image: widget-2-302x182.png
-  text: 'Справжню роботу можна оцінити лише кейсами.<br/>Ось вони - мої кейси.<br/><pre>Звісно, стосується відкритих для доступу</pre>'
-#  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
+  text: 'Справжню роботу можна оцінити лише кейсами.<br/>Ось вони - мої кейси.<br/><i>Звісно, стосується відкритих для доступу</i>'
 widget3:
   title: "About | Про мене"
   url: '/info/'
-  image: widget-3-303x182.png
-  text: 'Інформація про мене. </br> Все що стосується моєї персони.</br>Що почитати мого, що подивитись мого, що цікавого про мене є.'
+  image: widget-3-302x182.png
+  text: 'Інформація про мене. </br> Все що стосується моєї персони.</br>Що почитати мого, що подивитись мого, що цікавого про мене є.</br>'
+#
+#  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
 #
 # Use the call for action to show a button on the frontpage
 #

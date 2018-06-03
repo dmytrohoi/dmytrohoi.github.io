@@ -5,29 +5,25 @@ subheadline: "Projects | Проекти"
 title:  "Опис прикладу бінарного методу пошуку"
 teaser: "Треба визначити число від 1 до 100, яке задумав користувач..."
 breadcrumb: true
+categories:
+    - projects
 tags:
     - open source
     - base algorithms
-categories:
-    - projects
 image:
     thumb: gallery-example-3-thumb.jpg
-    title: gallery-example-3.jpg
-    caption_url: http://unsplash.com
+#    title: gallery-example-3.jpg
+#    caption_url: http://unsplash.com
 
 ---
 
 *Треба визначити число від 1 до 100, яке задумав користувач, використовую принцип ділення навпіл. Таким чином, під час пошуку береться половина від області яка знаходиться в більших чи менших значеннях від виведеного алгоритмом.
 <!--more-->
 
-
-======
-
 [![Version_0.001](https://img.shields.io/badge/version-0.001-orange.svg)](https://github.com/dmytrohoi/Dihotomia) [![Python](https://img.shields.io/pypi/pyversions/Django.svg)](https://www.python.org)
 
 [Дивитись покроково презентацію цієї сторінки](https://github.com/dmytrohoi/Dihotomia/blob/master/docs/slides.html)
 
-----
 
 ## ЗМІСТ:
 
@@ -45,8 +41,6 @@ image:
 3. [Від автора](#3-Від-автора)
 
 
-----
-
 ## 1. Вхідні дані
 
 
@@ -61,7 +55,6 @@ image:
  - стандартний метод ділення навпіл (поступово)
  - знаходження значення з області через функцію ```random```
 
-----
 
 ## 2. Розбір коду
 
@@ -218,7 +211,7 @@ number = random.randint(first, number - 1) #для check == '-'
 Було додано як практику програмування на мові [Python](https://github.com/topics/python).
 Дякую за увагу!
 
-----
+
 
 ~~~
 

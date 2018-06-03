@@ -14,14 +14,14 @@ title: 'Dmytro Hoi | Personal Page'
 slogan: ''
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: ''
+description: 'Персональна сторінка Дмитра Гоя. </br>Використовується для демонстрації проектів та публікації longread дописів в блозі.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: 'With <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> and based on <a href="http://github.com/" target="_blank">GitHub</a>.</p>'
 
 # Main author of the website
 # See > authors.yml
-author: phlow
+author: dmytrohoi
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
@@ -111,7 +111,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for pages
+      author: dmytrohoi     # Default author for pages
   -
     scope:
       path: ''
@@ -119,8 +119,8 @@ defaults:
     values:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
-      comments: false
-      author: phlow     # Default author for posts
+      comments: true
+      author: dmytrohoi     # Default author for posts
 
 
 
@@ -200,7 +200,7 @@ socialmedia:
 #
 # used in _includes/comments
 
-# disqus_shortname:
+disqus_shortname: dmitrohoi
 
 
 #      _____
@@ -224,7 +224,7 @@ sass:
 #
 # used in _includes/footer_scripts
 
-google_analytics_tracking_id: UA-60112281-1
+# google_analytics_tracking_id: UA-60112281-1
 
 
 
