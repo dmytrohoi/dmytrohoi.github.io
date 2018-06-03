@@ -1,19 +1,19 @@
 ---
 layout: page
 sidebar: left
-subheadline: Projects | Проекти
+subheadline: "Projects | Проекти"
 title:  "Опис прикладу бінарного методу пошуку"
-teaser: "Треба визначити число від 1 до 100, яке задумав користувач, використовую принцип ділення навпіл."
+teaser: "Треба визначити число від 1 до 100, яке задумав користувач..."
 breadcrumb: true
 tags:
     - open source
+    - base algorithms
 categories:
     - projects
 image:
     thumb: gallery-example-3-thumb.jpg
     title: gallery-example-3.jpg
     caption_url: http://unsplash.com
-show_meta: false
 
 ---
 
@@ -225,6 +225,6 @@ number = random.randint(first, number - 1) #для check == '-'
 ~~~
 
 
-## Інші пости з тегом 'Open Source'
+## Інші пости по базовим алгоритмам
 {: .t60 }
-{% include list-posts tag='open source' %}
+{% include list-posts tag='base algorithms' %}
