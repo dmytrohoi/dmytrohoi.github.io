@@ -2,16 +2,21 @@
   url: "/"
   side: left
 
-- title: Blog | Блог
+- title: "Blog | Блог"
   url: "/blog/"
+  side: left
+
+
+- title: "Contact | Контакти"
+  url: "/contact/"
   side: left
 
 - title: "Projects | Проекти"
   url: "/projects/"
   side: left
-  # dropdown:
-  # - title: "Grid & Colors"
-  #   url: "/design/grid/"
+  dropdown:
+  - title: "Задача: Dihotomia"
+    url: "/projects/dihotomia/"
   # - title: "Typography"
   #   url: "/design/typography/typography/"
   # - title: "Page/Post"
@@ -31,19 +36,17 @@
   # - title: "Portfolio"
   #   url: "/design/portfolio/"
 
-- title: Also | Також
-  url: "/documentation/"
-  side: left
-  dropdown:
-  - title: "CV"
-    url: "/CV/"
-  - title: "Blog Archive | Архів Блогу"
-    url: "/blog/archive"
+
 
 - title: "Search"
   url: "/search/"
   side: right
 
-- title: "Contact | Контакти"
-  url: "/contact/"
+- title: "Also"
+  url: "/documentation/"
   side: right
+  dropdown:
+  - title: "CV"
+    url: "/CV/"
+  - title: "Blog Archive | Архів Блогу"
+    url: "/blog/archive"
