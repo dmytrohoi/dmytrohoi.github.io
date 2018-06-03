@@ -1,6 +1,6 @@
-- menu_name: "Services"
+- menu_name: "Services | Сервіси"
 
-- name: "Contact"
+- name: "Contact | Контакти"
   url: "/contact/"
   title: "Contact"
 
@@ -12,6 +12,6 @@
   url: "/atom.xml"
   title: "Subscribe to Atom Feed"
 
-- name: "sitemap.xml"
+- name: "Sitemap"
   url: "/sitemap.xml"
   title: "Sitemap for Google Webmaster Tools"
