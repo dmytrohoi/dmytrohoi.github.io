@@ -13,6 +13,9 @@ image:
     thumb: gallery-example-3-thumb.jpg
 #    title: gallery-example-3.jpg
 #    caption_url: http://unsplash.com
+
+permalink: /projects/dihotomia/
+
 homepage: true
 ---
 

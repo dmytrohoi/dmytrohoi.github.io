@@ -17,12 +17,12 @@ widget2:
   title: "Projects | Проекти"
   url: '/projects/'
   image: widget-2-302x182.png
-  text: 'Справжню роботу можна оцінити лише кейсами.<br/>Ось вони - мої кейси.<br/><i>Звісно, стосується відкритих для доступу</i>'
+  text: 'Справжню роботу можна оцінити лише кейсами.</br>Ось вони - мої кейси.</br><i>Звісно, стосується відкритих для доступу</i>'
 widget3:
   title: "About | Про мене"
   url: '/info/'
   image: widget-3-302x182.png
-  text: 'Інформація про мене. </br> Все що стосується моєї персони.</br>Що почитати мого, що подивитись мого, що цікавого про мене є.</br>'
+  text: 'Інформація про мене. </br> Все що стосується моєї персони.</br></br>Що почитати мого, що подивитись мого, що цікавого про мене є.'
 #
 #  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
 #
