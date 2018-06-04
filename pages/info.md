@@ -6,7 +6,7 @@ teaser: "Since years I am programming and designing websites. I love to work wit
 permalink: "/info/"
 header:
   image:  "index_header.jpg"
-  pattern:  "pattern_stars.jpg"
+  pattern:  "pattern_stars.png"
 ---
 ...and learn at the same time.
 
