@@ -8,13 +8,30 @@ categories:
     - projects
 tags:
     - open source
-    - base algorithms
+    - task
 image:
     thumb: gallery-example-3-thumb.jpg
 #    title: gallery-example-3.jpg
 #    caption_url: http://unsplash.com
 homepage: true
 ---
+
+<ul>
+{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+{% for post in posts %}
+  <li>
+    <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+  </li>
+{% endfor %}
+
+{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+{% for page in pages %}
+  <li>
+    <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+  </li>
+{% endfor %}
+</ul>
+
 
 *Треба визначити число від 1 до 100, яке задумав користувач, використовую принцип ділення навпіл. Таким чином, під час пошуку береться половина від області яка знаходиться в більших чи менших значеннях від виведеного алгоритмом.
 <!--more-->
@@ -217,6 +234,6 @@ number = random.randint(first, number - 1) #для check == '-'
 ~~~
 
 
-## Інші пости по базовим алгоритмам
+## Інші пости з тегом "Задача"
 {: .t60 }
-{% include list-posts tag='base algorithms' %}
+{% include list-posts tag='task' %}
