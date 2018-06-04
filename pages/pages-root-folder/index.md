@@ -7,7 +7,7 @@
 layout: frontpage
 header:
   image:  "index_header.jpg"
-  pattern:  "pattern_stars.jpg"
+  pattern:  "pattern_stars.png"
 widget1:
   title: "Blog | Блог"
   url: '/blog/'
