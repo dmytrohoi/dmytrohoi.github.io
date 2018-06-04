@@ -4,7 +4,6 @@ sidebar: left
 subheadline: "Projects | Проекти"
 title:  "Опис прикладу бінарного методу пошуку"
 teaser: "Треба визначити число від 1 до 100, яке задумав користувач..."
-breadcrumb: true
 categories:
     - projects
 tags:
@@ -14,7 +13,7 @@ image:
     thumb: gallery-example-3-thumb.jpg
 #    title: gallery-example-3.jpg
 #    caption_url: http://unsplash.com
-
+homepage: true
 ---
 
 *Треба визначити число від 1 до 100, яке задумав користувач, використовую принцип ділення навпіл. Таким чином, під час пошуку береться половина від області яка знаходиться в більших чи менших значеннях від виведеного алгоритмом.
