@@ -47,6 +47,6 @@
   side: right
   dropdown:
   - title: "CV"
-    url: "/CV/"
+    url: "/cv/"
   - title: "Blog Archive | Архів Блогу"
     url: "/blog/archive"
