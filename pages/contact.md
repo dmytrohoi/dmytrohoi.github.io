@@ -1,9 +1,12 @@
 ---
 layout: page
+show_meta: false
 title: "Contact | Контакти"
-meta_title: "Contact, subscribe or use contact form"
+# meta_title: "Contact, subscribe or use contact form"
 # subheadline: "Wufoo-powered contact forms"
-teaser: "Мої контакти"
+# teaser: "Мої контакти"
+header:
+   image_fullwidth: "contact_header.jpg"
 permalink: "/contact/"
 ---
 
@@ -33,8 +36,6 @@ permalink: "/contact/"
     </tr>
 </table>
 
-
-<i>Використовуйте Telegram або Facebook, якщо вам потрібно з'язатись зі мною.</i>
 
 А також:
 <div align="center">
