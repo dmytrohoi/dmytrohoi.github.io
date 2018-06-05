@@ -1,16 +1,16 @@
-- menu_name: "Navigation | Навігація"
+- menu_name: "Навігація"
 
-- name: "Home Page | Головна сторінка"
+- name: "Головна сторінка"
   url: "/"
   class: "network-entypo"
   title: ""
 
-- name: "Blog | Блог"
+- name: "Блог"
   url: "/blog/"
   class: "services-newsletter"
   title: ""
 
-- name: "Projects | Проекти"
+- name: "Проекти"
   url: "/projects/"
   class: "rss-link"
   title: ""

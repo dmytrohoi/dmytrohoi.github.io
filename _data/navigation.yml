@@ -1,22 +1,27 @@
-- title: Home Page | Головна сторінка
+- title: Головна
   url: "/"
   side: left
 
-- title: "Blog | Блог"
+- title: "Блог"
   url: "/blog/"
   side: left
 
-
-- title: "Contact | Контакти"
-  url: "/contact/"
-  side: left
-
-- title: "Projects | Проекти"
+- title: "Проекти"
   url: "/projects/"
   side: left
   dropdown:
   - title: "Задача: Dihotomia"
     url: "/projects/dihotomia/"
+
+- title: "Про мене"
+  url: "/info/"
+  side: left
+  - title: "Контакти"
+    url: "/contact/"
+  - title: "CV"
+    url: "/cv/"
+
+
   # - title: "Typography"
   #   url: "/design/typography/typography/"
   # - title: "Page/Post"
@@ -38,15 +43,14 @@
 
 
 
-- title: "Search"
+- title: "Пошук"
   url: "/search/"
   side: right
 
-- title: "Also"
+- title: ">"
   url: "/documentation/"
   side: right
   dropdown:
-  - title: "CV"
-    url: "/cv/"
+
   - title: "Blog Archive | Архів Блогу"
     url: "/blog/archive"
