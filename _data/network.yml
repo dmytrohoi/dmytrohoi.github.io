@@ -1,18 +1,18 @@
 - menu_name: "Навігація"
 
-- name: "Головна сторінка"
+- name: "Головна"
   url: "/"
   class: "network-entypo"
   title: ""
 
-- name: "Блог"
+- name: "Статті"
   url: "/blog/"
-  class: "services-newsletter"
+  class: "rss-link"
   title: ""
 
-- name: "Проекти"
-  url: "/projects/"
-  class: "rss-link"
+- name: "Про мене"
+  url: "/about/"
+  class: "services-newsletter"
   title: ""
 
 - name: "CV"

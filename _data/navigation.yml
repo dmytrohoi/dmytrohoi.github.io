@@ -2,10 +2,6 @@
   url: "/"
   side: left
 
-- title: "Про мене"
-  url: "/info/"
-  side: left
-
 - title: "Проекти"
   url: "/projects/"
   side: left
@@ -19,6 +15,10 @@
   dropdown:
   - title: "Юнвер"
     url: "/text/unwer/"
+
+- title: "Про мене"
+  url: "/info/"
+  side: left
 
 # - title: "Музика"
 #   url: "/music/"
@@ -53,14 +53,3 @@
 - title: "Пошук"
   url: "/search/"
   side: right
-
-- title: "CV"
-  url: "/cv/"
-  side: right
-
-- title: ">"
-  side: right
-  dropdown:
-
-  - title: "Blog Archive | Архів Блогу"
-    url: "/blog/archive"
