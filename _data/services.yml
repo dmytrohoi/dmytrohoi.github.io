@@ -1,6 +1,6 @@
-- menu_name: "Services | Сервіси"
+- menu_name: "Сервіси"
 
-- name: "Contact | Контакти"
+- name: "Контакти"
   url: "/contact/"
   title: "Contact"
 
