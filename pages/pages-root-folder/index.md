@@ -9,15 +9,15 @@ header:
   image:  "index_header.png"
   pattern:  "pattern_stars.png"
 widget1:
-  title: "Блог"
-  url: '/blog/'
-  image: widget-1-302x182.png
-  text: 'Кожен має свою думку і якщо думка кожного окремо стосується чогось більш персонального - вона має бути виражена.<br/> Це саме про це.'
-widget2:
   title: "Проекти"
   url: '/projects/'
+  image: widget-1-302x182.png
+  text: 'Справжню роботу можна оцінити лише кейсами.</br>Ось вони - мої кейси.</br>'
+widget2:
+  title: "Текст"
+  url: '/text/'
   image: widget-2-302x182.png
-  text: 'Справжню роботу можна оцінити лише кейсами.</br>Ось вони - мої кейси.</br><i>Звісно, стосується відкритих для доступу</i>'
+  text: 'Написання прози та статей на різні теми - одне з небагатьох філософських занять сьогодення. Окремо варто зазначити, що твори та дописи написані не філологом, але з їх допомоги.'
 widget3:
   title: "Про мене"
   url: '/info/'
@@ -46,10 +46,3 @@ permalink: /index.html
 #
 homepage: true
 ---
-
-<!-- <div id="videoModal" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <a class="close-reveal-modal">&#215;</a>
-</div> -->
