@@ -1,8 +1,7 @@
 ---
 layout: page
 sidebar: left
-subheadline: "Projects | Проекти"
-title:  "Опис прикладу бінарного методу пошуку"
+title:  "Опис прикладу бінарного методу пошуку "
 teaser: "Треба визначити число від 1 до 100, яке задумав користувач..."
 categories:
     - projects
@@ -10,9 +9,7 @@ tags:
     - open source
     - task
 image:
-    thumb: gallery-example-3-thumb.jpg
-#    title: gallery-example-3.jpg
-#    caption_url: http://unsplash.com
+    thumb: post_header_dih.png
 
 permalink: /projects/dihotomia/
 
