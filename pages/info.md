@@ -12,7 +12,7 @@ header:
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
 <div class="panel radius" markdown="1">
-<div align="center">**Зміст:**</div>
+<div align="center"><h3>Зміст:</h3></div>
 {: #toc }
 *  TOC
 {:toc}
@@ -38,7 +38,7 @@ header:
 ### Мови програмування
 
 Pascal <kbd>2013-2014</kbd>
-:  Вивчав в школі. Отримав базу, яка потім допомагала в рішенні університетських задач. В тому числі, з застосуванням мови Assembler.. 
+:  Вивчав в школі. Отримав базу, яка потім допомагала в рішенні університетських задач. В тому числі, з застосуванням мови Assembler..
 
 _(Оцінка: <kbd>5</kbd>/<kbd>10</kbd>)_
 

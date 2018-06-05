@@ -1,6 +1,5 @@
 ---
-layout: page
-sidebar: right
+layout: page-fullwidth
 title:  "Опис прикладу бінарного методу пошуку "
 teaser: "Треба визначити число від 1 до 100, яке задумав користувач..."
 categories:
@@ -12,11 +11,38 @@ image:
     thumb: post_header_dih.png
 
 permalink: /projects/dihotomia/
-
-homepage: true
 ---
 
+<!-- SIDEBAR -->
 
+<div class="row">
+
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+
+<div align="center"><h3>Зміст:</h3></div>
+{: #toc }
+*  TOC
+{:toc}
+
+
+<details>
+    <summary><h3>Мої посилання</h3></summary>
+<div align="center">
+<p><a href="https://dmytrohoi.github.io/"><img style="vertical-align: sub !important;" src="https://dmytrohoi.github.io/images/social/st.png"></a> <a href="https://fb.com/dmytro.hoi"><img style="vertical-align: sub !important;" src="https://dmytrohoi.github.io/images/social/fb.png"></a><a href="https://github.com/dmytrohoi"  ><img style="vertical-align: sub !important;" src="https://dmytrohoi.github.io/images/social/gh.png"></a><a href="https://twitter.com/criticoffer"  ><img style="vertical-align: sub !important;" src="https://dmytrohoi.github.io/images/social/tw.png"></a></p>
+<p><a href="https://dmytrohoi.github.io/cv"  ><img style="vertical-align: sub !important;" src="https://dmytrohoi.github.io/images/social/cv.png"></a> <a href="https://www.linkedin.com/in/dmytrohoi"  ><img style="vertical-align: sub !important;" src="https://dmytrohoi.github.io/images/social/li.png"></a><a href="https://instagram.com/dmhoi78"  ><img style="vertical-align: sub !important;" src="https://dmytrohoi.github.io/images/social/insta.png"></a><a href="https://youtube.com/channel/UCOOftc_XjycxIsDbWsoBFtA"  ><img style="vertical-align: sub !important;" src="https://dmytrohoi.github.io/images/social/yt.png"></a></p>
+</div>
+
+<div align="center"><i>Більше дописів на Facebook та в Twitter..</i></div>
+
+</div>
+</details>
+
+</div>
+</div>
+
+<!-- CONTENT -->
+<div class="medium-8 medium-pull-4 columns" markdown="1">
 
 Треба визначити число від 1 до 100, яке задумав користувач, використовую принцип ділення навпіл. Таким чином, під час пошуку береться половина від області яка знаходиться в більших чи менших значеннях від виведеного алгоритмом.
 <!--more-->
@@ -201,3 +227,5 @@ number = random.randint(first, number - 1) #для check == '-'
 ## Пости з тегом "Задача"
 {: .t60 }
 {% include list-posts tag='task' %}
+
+</div>
