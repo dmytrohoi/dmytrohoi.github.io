@@ -16,6 +16,7 @@
 - title: "Про мене"
   url: "/info/"
   side: left
+  dropdown:
   - title: "Контакти"
     url: "/contact/"
   - title: "CV"
