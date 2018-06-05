@@ -1,8 +1,8 @@
 ---
 layout: page
 show_meta: false
-title: "Projects | Проекти"
-subheadline: "Всі мої проекти"
+title: "Проекти"
+subheadline: "Інформація про мої проекти"
 header:
    image_fullwidth: "projects_header.jpg"
 permalink: "/projects/"

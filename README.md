@@ -1,20 +1,14 @@
 Site dmytrohoi.github.io
 ====
 
-TOC | Зміст
-----
+<!-- TOC | Зміст
+---- -->
 
 <!-- <details>
  <summary>Click to open TOC</summary> -->
- 
-<!-- TOC depthFrom:1 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [About](#about)
-	- [Інструменти](#інструменти)
-- [Author](#author)
-	- [MORE](#more)
 
-<!-- /TOC -->
+
 <!-- </details> -->
 
 # About

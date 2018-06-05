@@ -9,17 +9,17 @@ header:
   image:  "index_header.png"
   pattern:  "pattern_stars.png"
 widget1:
-  title: "Blog | Блог"
+  title: "Блог"
   url: '/blog/'
   image: widget-1-302x182.png
   text: 'Кожен має свою думку і якщо думка кожного окремо стосується чогось більш персонального - вона має бути виражена.<br/> Це саме про це.'
 widget2:
-  title: "Projects | Проекти"
+  title: "Проекти"
   url: '/projects/'
   image: widget-2-302x182.png
   text: 'Справжню роботу можна оцінити лише кейсами.</br>Ось вони - мої кейси.</br><i>Звісно, стосується відкритих для доступу</i>'
 widget3:
-  title: "About | Про мене"
+  title: "Про мене"
   url: '/info/'
   image: widget-3-302x182.png
   text: 'Інформація про мене. </br> Все що стосується моєї персони.</br></br>Що почитати мого, що подивитись мого, що цікавого про мене є.'
@@ -37,7 +37,7 @@ widget3:
 #
 callforaction:
   url: https://tinyletter.com/dmytrohoi
-  text: Subscribe | Підписатись ›
+  text: Підписатись ›
   style: alert
 permalink: /index.html
 #
