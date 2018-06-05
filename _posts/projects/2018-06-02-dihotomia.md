@@ -1,6 +1,6 @@
 ---
-layout: page
-sidebar: left
+layout: page-fullwidth
+sidebar: right
 title:  "Опис прикладу бінарного методу пошуку "
 teaser: "Треба визначити число від 1 до 100, яке задумав користувач..."
 categories:
@@ -16,45 +16,14 @@ permalink: /projects/dihotomia/
 homepage: true
 ---
 
-<ul>
-{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-{% for post in posts %}
-  <li>
-    <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-  </li>
-{% endfor %}
-
-{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-{% for page in pages %}
-  <li>
-    <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-  </li>
-{% endfor %}
-</ul>
 
 
-*Треба визначити число від 1 до 100, яке задумав користувач, використовую принцип ділення навпіл. Таким чином, під час пошуку береться половина від області яка знаходиться в більших чи менших значеннях від виведеного алгоритмом.
+Треба визначити число від 1 до 100, яке задумав користувач, використовую принцип ділення навпіл. Таким чином, під час пошуку береться половина від області яка знаходиться в більших чи менших значеннях від виведеного алгоритмом.
 <!--more-->
 
 [![Version_0.001](https://img.shields.io/badge/version-0.001-orange.svg)](https://github.com/dmytrohoi/Dihotomia) [![Python](https://img.shields.io/pypi/pyversions/Django.svg)](https://www.python.org)
 
 [Дивитись покроково презентацію цієї сторінки](https://github.com/dmytrohoi/Dihotomia/blob/master/docs/slides.html)
-
-
-## ЗМІСТ:
-
-1. [Вхідні дані](#1-Вхідні-дані)
-    - [Задача](#Задача)
-    - [Рішення](#Рішення)
-
-
-2. [Розбір коду](#2-Розбір-коду)
-    - [Формули](#Формули)
-    - [Розбір алгоритму](#Розбір-алгоритму)
-    - [Додатково: варіант з Random](#%D0%94%D0%BE%D0%B4%D0%B0%D1%82%D0%BA%D0%BE%D0%B2%D0%BE-%D0%B2%D0%B0%D1%80%D1%96%D0%B0%D0%BD%D1%82-%D0%B7-random)
-
-
-3. [Від автора](#3-Від-автора)
 
 
 ## 1. Вхідні дані
