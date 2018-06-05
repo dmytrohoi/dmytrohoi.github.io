@@ -7,5 +7,4 @@ header:
   pattern:  
 permalink: "/cv/"
 ---
-
-<a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/contact/">Зв'язатись</a>
+<div align="center"><a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/contact/">Зв'язатись</a></div>

@@ -2,8 +2,8 @@
   url: "/"
   side: left
 
-- title: "Блог"
-  url: "/blog/"
+- title: "Про мене"
+  url: "/info/"
   side: left
 
 - title: "Проекти"
@@ -13,16 +13,22 @@
   - title: "Задача: Dihotomia"
     url: "/projects/dihotomia/"
 
-- title: "Про мене"
-  url: "/info/"
+- title: "Текст"
+  url: "/text/"
   side: left
   dropdown:
-  - title: "Контакти"
-    url: "/contact/"
-  - title: "CV"
-    url: "/cv/"
+  - title: "Юнвер"
+    url: "/text/unwer/"
 
-
+# - title: "Музика"
+#   url: "/music/"
+#   side: left
+#   dropdown:
+#   - title: "Someone Sledge"
+#     url: "/music/somesledge/"
+  # dropdown:
+  # - title: "Контакти"
+  #   url: "/contact/"
   # - title: "Typography"
   #   url: "/design/typography/typography/"
   # - title: "Page/Post"
@@ -48,8 +54,11 @@
   url: "/search/"
   side: right
 
+- title: "CV"
+  url: "/cv/"
+  side: right
+
 - title: ">"
-  url: "/documentation/"
   side: right
   dropdown:
 
