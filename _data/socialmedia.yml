@@ -1,7 +1,7 @@
 - name: GitHub
   url: http://github.com/dmytrohoi
   class: icon-github
-  title: "My Open Source Code"
+  title: ""
 
 - name: Facebook
   url: http://www.facebook.com/dmytro.hoi
@@ -11,12 +11,12 @@
 - name: Twitter
   url: http://twitter.com/criticoffer
   class: icon-twitter
-  title: "My Twi"
+  title: ""
 
 - name: Instagram
-  url: http://instagram.com/dmhoi78
+  url: http://instagram.com/dmytrohoi
   class: icon-instagram
-  title: "Photo"
+  title: ""
 
 - name: YouTube
   url: https://www.youtube.com/channel/UCOOftc_XjycxIsDbWsoBFtA
