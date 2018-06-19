@@ -11,7 +11,7 @@ permalink: "/projects/"
 <div class="row">
 
 <!-- CONTENT -->
-<div class="medium-8 medium-pull-4 columns" markdown="1">
+<div class="medium-8 medium-push-4 columns" markdown="1">
 
 <ul>
     {% for post in site.categories.projects %}
@@ -26,7 +26,7 @@ permalink: "/projects/"
 
 <!-- SIDEBAR -->
 
-<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="medium-4 medium-pull-8 columns" markdown="1">
 <div class="panel radius" markdown="1">
 <div align="center"><h3>Опис</h3></div>
 В цьому розділі мова йде про <b>програмні</b> проекти, а саме..
