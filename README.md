@@ -1,75 +1,62 @@
 Site ``dmytrohoi.github.io``
 ====
 
-<!-- TOC | Зміст
----- -->
+# About repository
 
-<!-- <details>
- <summary>Click to open TOC</summary> -->
+Site was created used [Pelican](@pelican) engine, and hosted on <a href="http://github.com/" target="_blank">GitHub</a> Pages.
 
+# Site parts
 
+Site contained a several parts:
 
-<!-- </details> -->
+- posts and articles (blog);
+- work expirience;
+- about used instruments, technologies and library's;
+- about civic/non-goverment activities;
+- links, CV and social-media profiles.
 
-# About
+-----
 
-## Інструменти
+## Contacts
 
-Сайт створено за допомогою <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> та реалізовано на шаблоні <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> на базі <a href="http://github.com/" target="_blank">GitHub</a> Pages.
-
-Функціонал персонального сайту мало чим відрізняється від сайту реалізованому завдяки звичайному хостингу.
-
-*Лиш мала кількість особистих сайтів використовує динамічний сайт, всі інші реалізують потенціал HTML + CSS.*
-
-
-
-# Author
-
-
-<table align="center">
+<div align="center"></div>
+<table width="100%">
     <tr>
-        <td>
-            </br>
-            <div align="center"> ** Dmytro Hoi ** </div>
-            </br>
-            <div align="center"> *Creative Digital Future Media*  </div>
-            </br>
-            `Python (J), SMM (M), Design (J)` </br>
-            `Copywrite (S), Art-writing (M), PM (M)`
-            </br></br>
-            <div align="center">
-                [![My Site][st0]][st1] [![][fb0]][fb1] [![][gh0]][gh1] [![][tw0]][tw1]
-                </br>
-                [![CV][cv0]][cv1] [![][li0]][li1] [![][inst0]][inst1] [![][yt0]][yt1]
-            </div>
-        </td>
-        <td>
-            <div align="center">![][ava0]</div>
-        </td>
+    <td>
+        <div align="center">
+        <img src="https://dmytrohoi.github.io/images/avatar/avatar0.png">
+        </div>
+    </td>
+    <td>
+        </br><div align="center">
+        <b> Dmytro Hoi </b>
+        </div></br>
+        <div align="center">
+        <i>Creative Digital Future Media</i>
+        </div></br>
+        <div align="center">
+        <code>Python (J), SMM (M), Design (J)</code>
+        </div>
+        <div align="center">
+        <code>Copywrite (S), Art-writing (M), PM (M)</code></div>
+        </br>
+        <div align="center">
+        <a href="http://dmytrohoi.github.io/"><img src="https://dmytrohoi.github.io/images/social/st.png"></a> <a href="http://fb.com/dmytro.hoi"><img src="https://dmytrohoi.github.io/images/social/fb.png"></a><a href="https://github.com/dmytrohoi"><img src="https://dmytrohoi.github.io/images/social/gh.png"></a><a href="https://twitter.com/criticoffer"><img src="https://dmytrohoi.github.io/images/social/tw.png"></a>
+        </div>
+        <div align="center">
+        <a href="http://dmytrohoi.github.io/cv"><img src="https://dmytrohoi.github.io/images/social/cv.png"></a> <a href="http://www.linkedin.com/in/dmytrohoi"><img src="https://dmytrohoi.github.io/images/social/li.png"></a><a href="https://instagram.com/dmhoi78"><img src="https://dmytrohoi.github.io/images/social/insta.png"></a><a href="https://youtube.com/channel/UCOOftc_XjycxIsDbWsoBFtA"><img src="https://dmytrohoi.github.io/images/social/yt.png"></a>
+        </div>
+    </td>
     </tr>
 </table>
+</div>
+
+-----
 
 ## MORE
 
 - [Issue | Вопросы](https://github.com/dmytrohoi/dmytrohoi.github.io/issues) :octocat:
 - [License][e190476f] :unlock:
-- Star GitHub [repo](https://github.com/dmytrohoi/dmytrohoi.github.io) and Follow [Author](https://github.com/dmytrohoi) :+1:
+- Follow [Author](https://github.com/dmytrohoi) :+1:
 
   [e190476f]: https://github.com/dmytrohoi/dmytrohoi.github.io/blob/master/LICENSE.md "LICENSE"
-  [st0]: https://dmytrohoi.github.io/images/social/st.png
-  [st1]: https://dmytrohoi.github.io/
-  [fb0]: https://dmytrohoi.github.io/images/social/fb.png
-  [fb1]: https://fb.com/dmytro.hoi
-  [gh0]: https://dmytrohoi.github.io/images/social/gh.png
-  [gh1]: https://github.com/dmytrohoi
-  [tw0]: https://dmytrohoi.github.io/images/social/tw.png
-  [tw1]: https://twitter.com/criticoffer
-  [cv0]: https://dmytrohoi.github.io/images/social/cv.png
-  [cv1]: https://dmytrohoi.github.io/cv
-  [li0]: https://dmytrohoi.github.io/images/social/li.png
-  [li1]: https://www.linkedin.com/in/dmytrohoi
-  [inst0]: https://dmytrohoi.github.io/images/social/insta.png
-  [inst1]: https://instagram.com/dmhoi78
-  [yt0]: https://dmytrohoi.github.io/images/social/yt.png
-  [yt1]: https://youtube.com/channel/UCOOftc_XjycxIsDbWsoBFtA
-  [ava0]: https://dmytrohoi.github.io/images/avatar/avatar0.png

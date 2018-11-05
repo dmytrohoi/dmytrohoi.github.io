@@ -12,7 +12,7 @@ Used MaterialDesignIcons [license source](https://github.com/Templarian/Material
 
 ## Contacts
 
-<div align="center">
+<div align="center"></div>
 <table width="100%">
     <tr>
     <td>
