@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %} &ndash; {{ page.title }}{% endblock %}
+
+
+{% block content %}
+
+{% if page.image %}
+    <div style="width:100%;overflow:hidden; max-height: 180px;"><img src="{{ page.image }}" style="display:block;width:100%;"></div>
+{% endif %}
+
+<article class="single">
+
+  <header>
+    {% import 'partial/translations.html' as translations with context %}
+    {{ translations.translations_for(page) }}
+    {% if not page.image and not (page.slug in page.image) -%}
+    <h1 id="{{ page.slug }}">{{ page.title }}</h1>
+    {%- endif %}
+
+  </header>
+  <div>
+    {% block before_content %}
+     
+    {% endblock %}
+    {% block page_content %}{{ page.content }}{% endblock %}
+    {% block after_content %}{% endblock %}
+  </div>
+</article>
+{% endblock %}
