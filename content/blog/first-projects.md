@@ -9,14 +9,15 @@ Summary: This article about my first projects. In the next - CV and work experie
 
 Hello, friend!
 
-In this post I tell you about my first projects, my crazy CV experiment and first IT work.
-Let's read and have fun. ;)
+In this post I tell you about my first projects, and summary about it. In this series of articles I tell about my crazy CV experiment and first IT work.
+
+Today I start wrote my english articles and publish here. Let's read and have fun. ;)
 
 -----
 
 ## Projects
 
-#### Name: [AirParseBot {article soon}](/projects/airparsebot)
+#### Name: [AirParseBot](/projects/airparsebot)
 **Info**: In theme a projects, I'm can tell about [parser from Kiwi site](/projects/airparsebot) to GUI and to Telegram Bot. This project was been propose by [Taras Kovalchuk](http://fb.com/tskovalchuk) for his Telegram Channel [@fairtrip](http://t.me/fairtrip). 
 
 **Result**: Now this project done same **70%**.
@@ -25,8 +26,8 @@ Let's read and have fun. ;)
 
 -----
 
-#### Name: [Site](/)
-**Info**: First try launch my personal site was been done on 2011-2012 year. In this time I'm was learning in the school and interests a web and etc. I try: hosting, self-hosted; WordPress, Ucoz and same site-making platform. And after that I understand, that - if I want really friendly and like personal site, me need to do that in clear HTML, CSS and JS. But, because I don't wand make it manually, in this year I try use SSG instruments. About it in that [{article soon}](/projects/site)..
+#### Name: [Site](/projects/site)
+**Info**: First try launch my personal site was been done on 2011-2012 year. In this time I'm was learning in the school and interests a web and etc. I try: hosting, self-hosted; WordPress, Ucoz and same site-making platform. And after that I understand, that - if I want really friendly and like personal site, me need to do that in clear HTML, CSS and JS. But, because I don't wand make it manually, in this year I try use SSG instruments. About it in that [article](/projects/site)..
 
 **Result**: you see - **done**.
 
@@ -45,4 +46,6 @@ _I have some a projects used Eel framework for Python and HTML, JS, CSS. But thi
 
 Also about me you may read in a [about page](/about.html).. (Work expirience, Civic activities, Skills and etc)..
 
-[Next article {soon}](/blog/first-cv)
+-----
+
+[Next article](/blog/first-cv) about CV-experiment.

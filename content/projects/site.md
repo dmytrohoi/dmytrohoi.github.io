@@ -1,4 +1,4 @@
-Title: Site adventures..
+Title: Sites adventures..
 Date: 2018-11-09 12:01
 Tags: site, projects, first
 Slug: site

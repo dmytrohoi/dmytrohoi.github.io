@@ -2,7 +2,7 @@ import os
 
 def github(publish_drafts=False): # 2
 
-    os.system('pelican content -o output -s pelicanconf.py')
+    os.system('pelican content -o output -s publishconf.py')
     try:  # 3
         if os.path.exists('output/drafts'):
             if not publish_drafts:

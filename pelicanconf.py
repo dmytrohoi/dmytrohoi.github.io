@@ -13,7 +13,7 @@ SITELOGO = '/images/profile.png'
 FAVICON = '/images/favicon.ico'
 
 PATH = 'content'
-STATIC_PATHS = ['images', 'pages', 'pdfs', 'extra/CNAME', 'extra/LICENSE.md', 'extra/README.md',]
+STATIC_PATHS = ['images', 'pages', 'pdfs', 'extra']
 PAGE_PATHS = ['pages']
 PLUGIN_PATHS = ['plugins']
 
@@ -24,7 +24,9 @@ PLUGINS = ['representative_image', 'post_stats', 'pelican_alias']
 
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
                         'extra/LICENSE.md': {'path': 'LICENSE.md'},
-                        'extra/README.md': {'path': 'README.md'}}
+                        'extra/README.md': {'path': 'README.md'},
+                        'extra/robots.txt': {'path': 'robots.txt'},
+                        }
 
 
 TIMEZONE = 'Europe/Vilnius'
@@ -39,16 +41,16 @@ RSS_FEED_SUMMARY_ONLY = True
 # Blogroll
 MAIN_MENU = True
 
-LINKS = ( ('Blog', '/category/blog'),
-        ('Books', '/category/books'),
-         ('Projects', '/category/projects'),
+LINKS = ( ('Blog', '/category/blog.html'),
+        ('Books', '/category/books.html'),
+         ('Projects', '/category/projects.html'),
          ('About', '/about.html'),
-         ('Podcasts', '/category/podcasts'),
+         ('Podcasts', '/category/podcasts.html'),
          )
 
 # Social widget
 SOCIAL = (('fab fa-facebook', 'http://fb.com/dmytro.hoi'),
-          ('fab fa-telegram', 'http://t.me/scripttips'),
+          ('fab fa-telegram', 'http://t.me/progsrc'),
           ('fab fa-github-square', 'http://github.com/dmytrohoi'),
           ('fab fa-linkedin', 'http://linkedin.com/in/dmytrohoi'),
           ('fab fa-twitter-square', 'http://twitter.com/criticoffer'),
@@ -66,7 +68,7 @@ CATEGORY_IMAGES = ['projects', 'blog']
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_PAGES_ON_MENU = False
@@ -92,6 +94,19 @@ LOCALE = 'en_US'
 DATE_FORMATS = {
     'en': r'%B %d, %Y',
 }
+
+# MARKDOWN = {
+#         'extension' : ['markdown.extensions.codehilite', 'markdown.extensions.extra', 'markdown.extensions.meta', 'markdown.extensions.toc'],
+#         # 'extension_configs': {
+#         #     'markdown.extensions.codehilite': {
+#         #         'css_class': 'highlight',
+#         #     },
+#         #     'markdown.extensions.extra': {},
+#         #     'markdown.extensions.meta': {},
+#         #     'markdown.extensions.toc': {},
+#         # },
+#         # 'output_format': 'html5',
+    # }
 
 DISQUS_SITENAME = 'hoi-pp'
 ADD_THIS_ID = 'ra-5be372bf4e2a102c'

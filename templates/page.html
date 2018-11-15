@@ -14,15 +14,11 @@
   <header>
     {% import 'partial/translations.html' as translations with context %}
     {{ translations.translations_for(page) }}
-    {% if not page.image and not (page.slug in page.image) -%}
-    <h1 id="{{ page.slug }}">{{ page.title }}</h1>
-    {%- endif %}
+    <h1 id="{{ page.slug }}" {% if page.image %}style="display: none;"{% endif %}>{{ page.title }}</h1>
 
   </header>
   <div>
-    {% block before_content %}
-     
-    {% endblock %}
+    {% block before_content %}{% endblock %}
     {% block page_content %}{{ page.content }}{% endblock %}
     {% block after_content %}{% endblock %}
   </div>
