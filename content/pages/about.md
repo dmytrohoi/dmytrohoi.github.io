@@ -5,29 +5,42 @@ Slug: about
 ![](/images/about_add.png)
 
 <style>
-    #row {
-        display: flex;
-    }
-    @media screen and (max-width: 600px){
-    #row {
-        display: block;
-    }
-    #column {
-        width:100% !important;
-    }}
+    .row {  
+  overflow: hidden;
+}
+
+.row div {
+   min-height: 200px;
+   padding: 10px;
+}
+#one {
+  float:left; 
+  width:65%;
+}
+#two { 
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+   #one { 
+    float: none;
+    width:auto;
+  }
+    
+}
 </style>
 
 <div id="row">
-  <div id="column" style="flex: 70%; padding: 0 20px 0 0;">
+  <div id="one" style="padding: 0 20px 0 0;">
   <h2 id="brief">Brief</h2>
 <p>I'm 21 y.o. Junior Python programmer who live in Kharkiv, Ukraine.</p>
 <br>
 <p>Now I work in Microbilt  [ <a href="https://www.linkedin.com/company/microbilt-corporation/"><i class="fab fa-linkedin-in" style="color: blue;"></i></a> ] (Kennesaw, Georgia, USA) on position 'Site Scraping Script Developer' in Kharkiv office.</p>
 <br>
 I strive for a job in Python, automation and innovation implementing. Where using newest frameworks and technologies it's a my priority. I like to disassemble and evaluate according to given criteria something and evaluate in for UX.
-
 </div>
-  <div id="column" style="flex: 30%; padding: 0 0 0 10px;">
+
+<div id="two" style="padding: 0 0 0 10px;">
 <h4> Table Of Content </h4>
  <p>1. <b><a href="#education">Education</a></b></p>
  <p>2. <b><a href="#work">Work experience</a></b></p>
@@ -313,46 +326,6 @@ Simple table my experience in programming:
 </tbody>
     </table></div>
 
-<div style="
-    overflow: auto;
-">
-
-| Type | Name | Knowledge <br> Level | Comments |
-| ------ |:------:|:------:| ------ |
-| programming language | __Python__ | 4/5 | _Version: 3_ <br> _Projects: 4_ <br> I learning this language, use for a common tasks and build a project on it |
-| programming language | __JavaScript__ | 2/5 | I training on my standalone (Electron-like) projects where used it like a part of script (Eel) |
-| programming language | __Bash__ | 2/5 |  I use it for my PC, it work on Ubuntu |
-| programming language | __Pascal/Delphi__ | 3/5 | I was use it for my school projects |
-| programming language | __Assembler__ | 2/5 | I was use it for my university laboratory works and practice works |
-| | | |
-| framework | __Jupyter__ | 4/5 | _Used: mathplotlib,Pandas._ <br> I was use Jupyter and Jupyter-Lab for build markdown-python notebooks and presentations (Rise) |
-| framework | __Bootstrap 4__ | 4/5 | Just understood how use it and have practice experience |
-| framework | __Jekyll__, __Pelican__ | 4/5 | Tried build personal site on it, last of it use now for this site |
-| framework | __Eel__ | 3/5 | Electron-like framework for Python, I was use it for a several private projects |
-| data interchange | __JSON__, __XML__  | 4/5 | I was use it for configurate a enviroments, save data and parse it  |
-| | | |
-| query language | __SQL__ | 4/5 | I was use in my projects for make a query's to DB |
-| query language | __WebQL__ | 4/5 | I was work on commercial projects on it |
-| | | |
-| markup language style sheet | __HTML__, __CSS__ | 4/5 | I was use for myself private projects-sites and for commercial projects-sites (sample, gwaramedia.com.ua ) |
-| markup language | __Markdown__, __reStructuredText__ | 5/5 | Just text markup language | 
-| | | |
-| tool | __RegExp__ | 5/5 | I was use it in commercial projects |
-| | | |
-| IDE | __VS Code__ | <3 | Migrated on it from Atom, Notepad ++ and Visual Studio *. <br> Added Vimium and many extensions |
-| | | |
-| ideologies | __VIM__ | 4/5 | Just use a VIM <3 |
-| ideologies | __Functional paradigm__ |4/5 | Basic knowledge for programmist today |
-| ideologies | __OOP__ | 3/5 | Less experience, don't worked on big projects |
-| | | |
-| metodologies | __Kanban__ | 4/5 | Scrum and same else metodologies use on private projects and in a civic activities |
-| | | |
-| instruments | __Jira__ | 4/5 | I was use IT on commertial projects |
-| instruments | __Trello__ | 5/5 | It's easy :D |
-| instruments | __GitHub__ | 5/5 | I love it! <3 |
-
-</div>
-
 _* - used too small time or once.._
 
 _[up][]_
@@ -411,7 +384,7 @@ _[up][]_
 
 -----
 
-<h2 id="cv">[Cirriculum Vitae](/cv)</h2>
+<h2 id="cv"><a href="/cv">Cirriculum Vitae</a></h2>
 
 _* - contain this page on experimental style and on minimalism style, also have many more detailed specification and jokes too_
 
