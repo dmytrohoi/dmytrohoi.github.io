@@ -19,49 +19,53 @@ PLUGIN_PATHS = ['plugins']
 
 ARTICLE_PATHS = ['blog', 'projects', 'books', 'podcasts']
 
-THEME = '/mnt/Files/CODE/PROJECT/dmytrohoi.github.io/main/dmytrohoi.github.io'
+THEME = ''
 PLUGINS = ['representative_image', 'post_stats', 'pelican_alias']
 
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
-                        'extra/LICENSE.md': {'path': 'LICENSE.md'},
-                        'extra/README.md': {'path': 'README.md'},
-                        'extra/robots.txt': {'path': 'robots.txt'},
-                        }
-
-
-TIMEZONE = 'Europe/Vilnius'
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+    'extra/LICENSE.md': {'path': 'LICENSE.md'},
+    'extra/README.md': {'path': 'README.md'},
+    'extra/robots.txt': {'path': 'robots.txt'},
+}
 
 # Feed generation is usually not desired when developing
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 FEED_ALL_RSS = 'feeds/all.rss.xml'
-AUTHOR_FEED_RSS = 'feeds/%s.rss.xml'
+# AUTHOR_FEED_RSS = 'feeds/%s.rss.xml'
 RSS_FEED_SUMMARY_ONLY = True
 
 # Blogroll
 MAIN_MENU = True
 
-LINKS = ( ('Blog', '/category/blog.html'),
-        ('Books', '/category/books.html'),
-         ('Projects', '/category/projects.html'),
-         ('About', '/about.html'),
-         ('Podcasts', '/category/podcasts.html'),
-         )
+LINKS = (
+    ('Blog', '/category/blog.html'),
+    ('Books', '/category/books.html'),
+    ('Projects', '/category/projects.html'),
+    ('progSrc', '/progsrc.html'),
+    ('About', '/about.html'),
+    # ('Podcasts', '/category/podcasts.html'),
+)
 
 # Social widget
-SOCIAL = (('fab fa-facebook', 'http://fb.com/dmytro.hoi'),
-          ('fab fa-telegram', 'http://t.me/progsrc'),
-          ('fab fa-github-square', 'http://github.com/dmytrohoi'),
-          ('fab fa-linkedin', 'http://linkedin.com/in/dmytrohoi'),
-          ('fab fa-twitter-square', 'http://twitter.com/criticoffer'),
-        #   ('', ''),
-          ('fab fa-dev', 'http://dev.to/dmytrohoi'),
-          ('fas fa-broadcast-tower', '/category/podcasts'),
-          ('fas fa-rss-square', '/feeds/all.atom.xml'),)
+SOCIAL = (
+    ('fab fa-facebook', 'http://fb.com/dmytro.hoi'),
+    ('fab fa-telegram', 'http://t.me/dmytrohoi'),
+    ('fab fa-github-square', 'http://github.com/dmytrohoi'),
+    ('fab fa-linkedin', 'http://linkedin.com/in/dmytrohoi'),
+    ('fab fa-twitter-square', 'http://twitter.com/dmytrohoi'),
+    ('fas fa-pen-square', 'http://hoi.pp.ua/progsrc'),
+    ('fab fa-dev', 'http://dev.to/dmytrohoi'),
+    # ('fas fa-broadcast-tower', '/category/podcasts'),
+    ('fas fa-rss-square', '/feeds/all.atom.xml'),
+)
 
-MENUITEMS = (('Archives', '/archives.html'),
-             ('Categories', '/categories.html'),
-             ('Tags', '/tags.html'),)
+MENUITEMS = (
+    ('Archives', '/archives.html'),
+    ('Categories', '/categories.html'),
+    ('Tags', '/tags.html'),
+)
 
 CATEGORY_IMAGES = ['projects', 'blog']
 
@@ -86,6 +90,7 @@ ROBOTS = 'index, follow'
 
 COPYRIGHT_YEAR = str(datetime.now().year)
 
+TIMEZONE = 'Europe/Vilnius'
 I18N_TEMPLATES_LANG = 'en'
 DEFAULT_LANG = 'en'
 OG_LOCALE = 'en_US'
@@ -94,19 +99,6 @@ LOCALE = 'en_US'
 DATE_FORMATS = {
     'en': r'%B %d, %Y',
 }
-
-# MARKDOWN = {
-#         'extension' : ['markdown.extensions.codehilite', 'markdown.extensions.extra', 'markdown.extensions.meta', 'markdown.extensions.toc'],
-#         # 'extension_configs': {
-#         #     'markdown.extensions.codehilite': {
-#         #         'css_class': 'highlight',
-#         #     },
-#         #     'markdown.extensions.extra': {},
-#         #     'markdown.extensions.meta': {},
-#         #     'markdown.extensions.toc': {},
-#         # },
-#         # 'output_format': 'html5',
-    # }
 
 DISQUS_SITENAME = 'hoi-pp'
 ADD_THIS_ID = 'ra-5be372bf4e2a102c'

@@ -1,4 +1,4 @@
-#!/mnt/Files/CODE/PROJECT/dmytrohoi.github.io/main/dmytrohoi.github.io/site_env/bin/python3
+#!/mnt/Code/PROJECT/dmytrohoi.github.io/main/dmytrohoi.github.io/site_env/bin/python3
 
 # $Id: rst2xetex.py 7847 2015-03-17 17:30:47Z milde $
 # Author: Guenter Milde

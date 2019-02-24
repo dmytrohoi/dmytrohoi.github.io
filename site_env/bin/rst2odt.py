@@ -1,4 +1,4 @@
-#!/mnt/Files/CODE/PROJECT/dmytrohoi.github.io/main/dmytrohoi.github.io/site_env/bin/python3
+#!/mnt/Code/PROJECT/dmytrohoi.github.io/main/dmytrohoi.github.io/site_env/bin/python3
 
 # $Id: rst2odt.py 5839 2009-01-07 19:09:28Z dkuhlman $
 # Author: Dave Kuhlman <dkuhlman@rexx.com>

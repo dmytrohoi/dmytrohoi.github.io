@@ -1,4 +1,4 @@
-#!/mnt/Files/CODE/PROJECT/dmytrohoi.github.io/main/dmytrohoi.github.io/site_env/bin/python3
+#!/mnt/Code/PROJECT/dmytrohoi.github.io/main/dmytrohoi.github.io/site_env/bin/python3
 
 # Author: 
 # Contact: grubert@users.sf.net

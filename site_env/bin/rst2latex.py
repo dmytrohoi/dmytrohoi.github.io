@@ -1,4 +1,4 @@
-#!/mnt/Files/CODE/PROJECT/dmytrohoi.github.io/main/dmytrohoi.github.io/site_env/bin/python3
+#!/mnt/Code/PROJECT/dmytrohoi.github.io/main/dmytrohoi.github.io/site_env/bin/python3
 
 # $Id: rst2latex.py 5905 2009-04-16 12:04:49Z milde $
 # Author: David Goodger <goodger@python.org>

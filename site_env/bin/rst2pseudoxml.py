@@ -1,4 +1,4 @@
-#!/mnt/Files/CODE/PROJECT/dmytrohoi.github.io/main/dmytrohoi.github.io/site_env/bin/python3
+#!/mnt/Code/PROJECT/dmytrohoi.github.io/main/dmytrohoi.github.io/site_env/bin/python3
 
 # $Id: rst2pseudoxml.py 4564 2006-05-21 20:44:42Z wiemann $
 # Author: David Goodger <goodger@python.org>
