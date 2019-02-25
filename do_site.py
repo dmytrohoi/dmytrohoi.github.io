@@ -16,6 +16,8 @@ GH_BACKUP_REPO_URL = 'git@github.com:dmytrohoi/site_backup'
 PUBLISH_CONFIG_FILE = 'publishconf.py'
 
 def shell_run(command, setup=False):
+    """ run bash 'command' and return info - 'Successful/Unsuccessful'
+    setup: Bool - if after error need try install requirements.txt"""
     result_code = system(command)
 
     if result_code == 0:
@@ -42,7 +44,7 @@ def github(*params):
     '[INFO] Drafts will be load!' if params['publish_drafts'] else shell_run(f'rm -rf {GH_OUTPUT_FOLDER}/drafts')
 
     if params['make_backup']:
-        shell_run(f'git add . && git commit -m "Site was publish {datetime.today}" && git push {GH_BACKUP_REPO_URL} origin master')
+        shell_run(f'git add . && git commit -m "Site was publish {datetime.today!r}" && git push {GH_BACKUP_REPO_URL} origin master')
 
 
     shell_run(f'ghp-import {GH_OUTPUT_FOLDER}')
@@ -73,10 +75,14 @@ def help_doc(*args):
 unknow_command = lambda *args: print(f'\n[ERROR] Unknow command! For help use "{__file__} help"..\n')
 
 
+def test():
+    print(f'{datetime.today.}')
+
 FUNCTIONS = {
         'github' : github,
         'local' : local_host,
-        'help' : help_doc
+        'help' : help_doc,
+        'test' : test
     }
 
 def main():
