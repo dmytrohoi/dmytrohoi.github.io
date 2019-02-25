@@ -12,7 +12,7 @@ from datetime import datetime
 OUTPUT_FOLDER = 'output'
 GH_OUTPUT_FOLDER = 'gh-output'
 GH_REPO_URL = 'git@github.com:dmytrohoi/dmytrohoi.github.io.git'
-GH_BACKUP_REPO_URL = 'git@github.com:dmytrohoi/site_backup'
+GH_BACKUP_REPO_URL = 'git@github.com:dmytrohoi/site_backup.git'
 PUBLISH_CONFIG_FILE = 'publishconf.py'
 
 def shell_run(command, setup=False):
@@ -27,6 +27,11 @@ def shell_run(command, setup=False):
     if setup:
         print('\n\t[!!!]\tRequirements installing request..\t[!!!]\t\n')
         return system('pip3 install -r requirements.txt')
+
+
+def backup():
+    """ backup all in dir to backup repo """
+    shell_run(f'git add . && git commit -m "Site backup" && git push {GH_BACKUP_REPO_URL} origin master')
 
 
 def github(*params):
@@ -44,8 +49,7 @@ def github(*params):
     '[INFO] Drafts will be load!' if params['publish_drafts'] else shell_run(f'rm -rf {GH_OUTPUT_FOLDER}/drafts')
 
     if params['make_backup']:
-        shell_run(f'git add . && git commit -m "Site was publish {datetime.today!r}" && git push {GH_BACKUP_REPO_URL} origin master')
-
+        backup()
 
     shell_run(f'ghp-import {GH_OUTPUT_FOLDER}')
     shell_run(f'git push --force {GH_REPO_URL} gh-pages:master')
@@ -75,14 +79,11 @@ def help_doc(*args):
 unknow_command = lambda *args: print(f'\n[ERROR] Unknow command! For help use "{__file__} help"..\n')
 
 
-def test():
-    print(f'{datetime.today.}')
-
 FUNCTIONS = {
         'github' : github,
         'local' : local_host,
         'help' : help_doc,
-        'test' : test
+        'backup' : backup
     }
 
 def main():
