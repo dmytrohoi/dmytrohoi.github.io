@@ -31,7 +31,7 @@ def shell_run(command, setup=False):
 
 def backup():
     """ backup all in dir to backup repo """
-    shell_run(f'git add . && git commit -m "Site backup" && git push --force {GH_BACKUP_REPO_URL} origin master')
+    shell_run(f'git add . && git commit -m "Site backup" && git push --force {GH_BACKUP_REPO_URL}')
 
 
 def github(*params):
