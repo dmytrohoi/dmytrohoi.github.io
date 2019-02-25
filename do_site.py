@@ -3,17 +3,19 @@
 
 """ Script make local server or push site to GitHub.
 
+Attention! Use only in your virtual enviroment!
+
 Created by Dmytro Hoi - 2019 (c)"""
 
-from os import system, path
+from os import system
 from sys import argv
-from datetime import datetime
 
 OUTPUT_FOLDER = 'output'
 GH_OUTPUT_FOLDER = 'gh-output'
 GH_REPO_URL = 'git@github.com:dmytrohoi/dmytrohoi.github.io.git'
 GH_BACKUP_REPO_URL = 'git@github.com:dmytrohoi/site_backup.git'
 PUBLISH_CONFIG_FILE = 'publishconf.py'
+
 
 def shell_run(command, setup=False):
     """ run bash 'command' and return info - 'Successful/Unsuccessful'
@@ -31,7 +33,8 @@ def shell_run(command, setup=False):
 
 def backup():
     """ backup all in dir to backup repo """
-    shell_run(f'git add . && git commit -m "Site backup" && git push --force {GH_BACKUP_REPO_URL}')
+    shell_run('git add . && git commit -m "Site backup" && git push --force '
+              + f'{GH_BACKUP_REPO_URL}')
 
 
 def github(*params):
@@ -40,16 +43,20 @@ def github(*params):
             '-b'  -  make backup; """
 
     params = {
-        'publish_drafts' : '-d' in params,
-        'make_backup' : '-b' in params,
+        'publish_drafts': '-d' in params,
+        'make_backup': '-b' in params,
     }
 
-    shell_run(f'pelican content -o {GH_OUTPUT_FOLDER} -s {PUBLISH_CONFIG_FILE}', setup=True)
+    shell_run(
+            f'pelican content -o {GH_OUTPUT_FOLDER} -s {PUBLISH_CONFIG_FILE}',
+            setup=True
+        )
 
-    '[INFO] Drafts will be load!' if params['publish_drafts'] else shell_run(f'rm -rf {GH_OUTPUT_FOLDER}/drafts')
+    print('[INFO] Drafts will be load!') if params['publish_drafts'] else \
+        shell_run(f'rm -rf {GH_OUTPUT_FOLDER}/drafts')
 
-    if params['make_backup']:
-        backup()
+    backup() if params['make_backup'] else \
+        print('[INFO] Directory not backuped!')
 
     shell_run(f'ghp-import {GH_OUTPUT_FOLDER}')
     shell_run(f'git push --force {GH_REPO_URL} gh-pages:master')
@@ -59,32 +66,31 @@ def github(*params):
 
 def local_host(*args):
     """ make local server using pelicanconf file """
-
     shell_run(f'rm -rf {OUTPUT_FOLDER}')
     shell_run('fuser -k 8000/tcp')
-    shell_run('make html && make serve')
+    shell_run('make html && make serve', setup=True)
     return
 
 
 def help_doc(*args):
     """ print functions annotations """
-
     help_info = '\n  Functions:\n'
     for name, func in FUNCTIONS.items():
         help_info += '\t' + name + '\t' + func.__doc__ + '\n'
-
     return print(help_info)
 
 
-unknow_command = lambda *args: print(f'\n[ERROR] Unknow command! For help use "{__file__} help"..\n')
+unknow_command = lambda *a: print('\n[ERROR] Unknow command! For help use '
+                                  + f'"python {__file__} help"..\n')
 
 
 FUNCTIONS = {
-        'github' : github,
-        'local' : local_host,
-        'help' : help_doc,
-        'backup' : backup
+        'github': github,
+        'local': local_host,
+        'backup': backup,
+        'help': help_doc,
     }
+
 
 def main():
     FUNCTIONS.get(argv[1], unknow_command)(*argv[2:])
