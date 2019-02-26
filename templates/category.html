@@ -27,7 +27,7 @@
     <p>
       {{ _('Posted on %(when)s in %(category)s',
            when=article.locale_date,
-           category='<a href="%s/category/%s">%s</a>'|format(SITEURL, article.category.slug, article.category)|safe) }}
+           category='<a href="%s/%s">%s</a>'|format(SITEURL, article.category.slug, article.category)|safe) }}
 
       {% if article.tags and not HOME_HIDE_TAGS %}
           &#8226; {{ _('Tagged with') }}

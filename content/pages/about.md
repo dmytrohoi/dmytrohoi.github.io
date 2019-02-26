@@ -2,7 +2,7 @@ Title: About
 Date: 2018-11-05 12:12
 Slug: about
 
-![](/images/about_add.png)
+![Dmytro Hoi](/images/about_add.png)
 
 <style>
     .row {  
@@ -73,15 +73,13 @@ _[up][]_
 
 #### __Official__:
 
-**Company**: Microbilt
+##### Microbilt
 
 **Position**: Site Scraping Script Developer (07/2018 - … )
 
 **Info**: WebQL programing, using RegExp and Python, creating misc automation scripts. I created a several propose to implementing new technologies and instruments in a team communicaJust text markup languagestion and UX, performance boosting.
 
-
-
-**Company**: National University of Radioelectronics
+##### National University of Radioelectronics
 
 **Position**: Senior Assistant (06/2016 - 05/2017)
 
@@ -89,35 +87,31 @@ _[up][]_
 
 #### __Partial__:
 
-**Company**: Freelance
+##### Freelance
 
 **Position**: Python programmer (05/2018 - … )
 
 **Info**: On state Febrary 2019 I was create 4 bots and 2 standalone scripts. In code used libs: requests, telebot, pyTelegramBotAPI and bs4. Working with Bitrix and Kiwi REST API's.
 
-
-
-**Company**: Gwara Media
+##### Gwara Media
 
 **Position**: Site Support Specialist (03/2018 - 06/2018)
 
 **Info**: I was edit a HTML, CSS, WordPress code of site. I was create some SMM part of content.
 
-
-
-**Company**: FaqInDecor
+##### FaqInDecor
 
 **Position**: Trainee Social Media Manager (\*\*/2017 - \*\*+3weeks/2017)
 
 **Info**: Tried research a loaded duties about content making.
 
-
-
-**Company**: Forgotten
+##### Forgotten
 
 **Position**: Trainee (\*\*/2014 - \*\*+2day/2014)
 
 **Info**: On the street sales-marketing specialist out of me disgusting.
+
+#### [My Projects](/blog/projects)
 
 _[up][]_
 
@@ -359,7 +353,7 @@ I try wrote book twice, but in this time first book was containing on 20%, secon
 
 This books it's a novels about human relations.
 
-Part of second book named "UNWER" was publish in category [#Books](/category/books).
+Part of second book named "UNWER" was publish in category [#Books](/books).
 
 ### Articles
 
@@ -400,9 +394,7 @@ _[up][]_
 
 <h2 id="cv"><a href="/cv">Cirriculum Vitae</a></h2>
 
-_* - contain this page on experimental style and on minimalism style, also have many more detailed specification and jokes too_
-
-[How I create it, and why it not common?](/blog/first-cv)
+#### [How I create it story..](/blog/cv)
 
 _[up][]_
 

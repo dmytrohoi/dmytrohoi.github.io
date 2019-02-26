@@ -1,11 +1,11 @@
-Title: ЮНВЕР [UA]
+Title: ЮНВЕР
 Date: 2018-11-10 23:00
-Tags: unwer, books
+Tags: unwer, books, lang:[🇺🇦](ua)
 Slug: unwer
-Summary: This article contain first chapter my first book - UNWER. Only in ukrainian language.
+Summary: Перший розділ книжки ЮНВЕР.
 
 
-![](/images/unwer.jpg)
+![UNWER - ЮНВЕР](/images/unwer.jpg)
 
 
 -----

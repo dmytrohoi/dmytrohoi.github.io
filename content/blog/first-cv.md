@@ -1,9 +1,9 @@
 Title: CV experiment
 Date: 2018-11-09 08:01
 Modified: 2018-11-10 00:30
-Tags: first, blog, projects
-Slug: first-cv
-Summary: This article about my first projects. In the next - CV and work experience.
+Tags: first, blog, projects, lang:[🇷🇺](ru)
+Slug: cv
+Summary: Про експерименты с резюме.
 
 ## Intro
 
@@ -30,6 +30,7 @@ All skills - separated logos, all work expirience - logo and small info block. O
 -----
 
 ## Feedback
+
 
 
 

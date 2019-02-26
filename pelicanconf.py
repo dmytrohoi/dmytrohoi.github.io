@@ -12,12 +12,15 @@ SITEDESCRIPTION = 'On this site you find my articles, links to social networks a
 SITELOGO = '/images/profile.png'
 FAVICON = '/images/favicon.ico'
 
+# INDEX_SAVE_AS = 'blog/index.html'
+# INDEX_URL = 'category/blog'
+
 PATH = 'content'
 STATIC_PATHS = ['images', 'pages', 'pdfs', 'extra']
 PAGE_PATHS = ['pages']
 PLUGIN_PATHS = ['plugins']
 
-ARTICLE_PATHS = ['blog', 'projects', 'books', 'podcasts']
+ARTICLE_PATHS = ['blog', 'projects', 'books', 'podcasts', 'bots']
 
 THEME = ''
 PLUGINS = ['representative_image', 'post_stats', 'pelican_alias']
@@ -40,12 +43,12 @@ RSS_FEED_SUMMARY_ONLY = True
 MAIN_MENU = True
 
 LINKS = (
-    ('Blog', '/category/blog.html'),
-    ('Books', '/category/books.html'),
-    ('Projects', '/category/projects.html'),
+    ('Blog', '/blog.html'),
+    ('Books', '/books.html'),
+    ('Projects', '/projects.html'),
     ('progSrc', '/progsrc.html'),
     ('About', '/about.html'),
-    # ('Podcasts', '/category/podcasts.html'),
+    # ('Podcasts', '/podcasts.html'),
 )
 
 # Social widget
@@ -57,7 +60,7 @@ SOCIAL = (
     ('fab fa-twitter-square', 'http://twitter.com/dmytrohoi'),
     ('fas fa-pen-square', 'http://hoi.pp.ua/progsrc'),
     ('fab fa-dev', 'http://dev.to/dmytrohoi'),
-    # ('fas fa-broadcast-tower', '/category/podcasts'),
+    # ('fas fa-broadcast-tower', '/podcasts'),
     ('fas fa-rss-square', '/feeds/all.atom.xml'),
 )
 
@@ -82,7 +85,8 @@ PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}.html'
 ARTICLE_URL = '{category}/{slug}/'
 ARTICLE_SAVE_AS = '{category}/{slug}.html'
-CATEGORY_URL = 'category/{slug}/'
+CATEGORY_URL = '{slug}/'
+CATEGORY_SAVE_AS = '{slug}.html'
 
 DEFAULT_DATE = 'fs'
 

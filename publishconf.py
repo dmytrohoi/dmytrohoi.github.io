@@ -10,4 +10,4 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://hoi.pp.ua'
+SITEURL = 'http://hoi.pp.ua/'

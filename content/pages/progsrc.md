@@ -3,7 +3,8 @@ Date: 2019-02-23 00:01
 Tags: Blog, Python, ProductHunt, GitHub, OpenSource
 Slug: progsrc
 
-![](/images/progsrc/avatar.png)
+
+<img style="float: right; height=40%; width=40%;" src="/images/progsrc/avatar.png">
 
 Агрегатор (территория) заметок, статей, советов и наблюдений, a также место в котором есть субъектив и обсуждение IT мира с позиции джуна.
 
@@ -12,6 +13,7 @@ Slug: progsrc
 
 [@progSrc](http://t.me/progsrc) либо [progsrc.ml](http://progsrc.ml/)
 
+<iframe src="https://progsrc.telepost.blog/" width="100%" height="600" align="left">
 
 -----
 /** автор не несет ответственности за содержание материалов *

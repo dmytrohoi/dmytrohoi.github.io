@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Dmytro Hoi - projects</title><link href="http://hoi.pp.ua/" rel="alternate"></link><link href="http://hoi.pp.ua/feeds/projects.atom.xml" rel="self"></link><id>http://hoi.pp.ua/</id><updated>2019-02-26T08:01:00+02:00</updated><entry><title>Bots</title><link href="http://hoi.pp.ua/projects/bots/" rel="alternate"></link><published>2019-02-26T08:01:00+02:00</published><updated>2019-02-26T08:01:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:hoi.pp.ua,2019-02-26:/projects/bots/</id><summary type="html">&lt;p&gt;Краткое описание всех разработаных ботов.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Что такое бот?&lt;/h2&gt;</content><category term="bots"></category><category term="lang:[🇷🇺](ru)"></category></entry><entry><title>Sites adventures</title><link href="http://hoi.pp.ua/projects/site/" rel="alternate"></link><published>2019-02-22T18:01:00+02:00</published><updated>2019-02-22T18:01:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:hoi.pp.ua,2019-02-22:/projects/site/</id><summary type="html">&lt;p&gt;История о долгих скитаниях этого сайта на просторах сети и о создании своего персонального места в Интернетах.&lt;/p&gt;</summary><content type="html">&lt;p&gt;If I will start remind all my try's make personal site - I will do it too long.&lt;/p&gt;
+&lt;p&gt;First was try - on &lt;code&gt;narod&lt;/code&gt; hosting.. After that - WordPress, pure HTML and many else.&lt;/p&gt;
+&lt;p&gt;{not ended..}&lt;/p&gt;</content><category term="site"></category><category term="projects"></category><category term="first"></category><category term="lang:[🇷🇺](ru)"></category></entry><entry><title>Kiwi Tickets Parser</title><link href="http://hoi.pp.ua/projects/kiwi_tickets_parser/" rel="alternate"></link><published>2019-01-31T11:01:00+02:00</published><updated>2019-02-02T18:30:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:hoi.pp.ua,2019-01-31:/projects/kiwi_tickets_parser/</id><summary type="html">&lt;p&gt;Скрипт с интерфейсом для создания партнерских ссылок на покупку билетов с сайта Kiwi.com.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Цель&lt;/h2&gt;
+&lt;p&gt;Создать скрипт, который бы в автоматическом режиме находил самые дешевые билеты 
+и создавал партнерские ссылки на них для публикации в Telegram канале на тему 
+туризма (travel-channel).&lt;/p&gt;
+&lt;h2&gt;Инструментарий&lt;/h2&gt;
+&lt;p&gt;Основной язык: Python 3.6&lt;/p&gt;
+&lt;p&gt;Библиотеки:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;requests - отправка запроса на сервер по REST API;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;json - преобразование JSON ответа от сервера в объект Python;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;tkinter - создание интерфейса для программы.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="airparsebot"></category><category term="projects"></category><category term="lang:[🇷🇺](ru)"></category></entry></feed>

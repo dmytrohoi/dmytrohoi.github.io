@@ -1,8 +1,8 @@
-Title: Sites adventures..
+Title: Sites adventures
 Date: 2019-02-22 18:01
-Tags: site, projects, first
+Tags: site, projects, first, lang:[🇷🇺](ru)
 Slug: site
-Summary: How long you find best solution in site hosting and administrating? I tell you something..
+Summary: История о долгих скитаниях этого сайта на просторах сети и о создании своего персонального места в Интернетах.
 
 
 If I will start remind all my try's make personal site - I will do it too long.
