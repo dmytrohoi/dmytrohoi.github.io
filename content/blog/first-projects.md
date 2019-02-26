@@ -5,6 +5,8 @@ Tags: first, blog, projects, lang:[🇬🇧](en)
 Slug: projects
 Summary: This article about my first projects.
 
+![Dmytro Hoi Projects](/images/blog_projects.png)
+
 ## Intro
 
 Hello, visitor!
