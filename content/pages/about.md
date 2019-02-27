@@ -111,7 +111,7 @@ _[up][]_
 
 **Info**: On the street sales-marketing specialist out of me disgusting.
 
-#### [My Projects](/blog/projects)
+#### _[My Projects](/blog/projects)_
 
 _[up][]_
 
@@ -143,7 +143,7 @@ Simple table my experience in programming:
 <td>programming language</td>
 <td align="center"><strong>Python</strong></td>
 <td align="center">4/5</td>
-<td><em>Version: 3</em> <br> <em>Projects: 4</em> <br> I learning this language, use for a common tasks and build a project on it</td>
+<td><em>Version: 3</em> <br> <em>Many <a href="/blog/projects">projects</a>!</em> <br> I learning this language, use for a common tasks and build a project on it</td>
 </tr>
 <tr>
 <td>programming language</td>
@@ -153,21 +153,57 @@ Simple table my experience in programming:
 </tr>
 <tr>
 <td>programming language</td>
-<td align="center"><strong>Bash</strong></td>
-<td align="center">2/5</td>
-<td>I use it for my PC, it work on Ubuntu</td>
+<td align="center"><strong>sh (Bash)</strong></td>
+<td align="center">3/5</td>
+<td>I use it everyday in Ubuntu</td>
 </tr>
 <tr>
 <td>programming language</td>
 <td align="center"><strong>Pascal/Delphi</strong></td>
 <td align="center">3/5</td>
-<td>I was use it for my school projects</td>
+<td>I was use in school and schools projects</td>
 </tr>
 <tr>
 <td>programming language</td>
 <td align="center"><strong>Assembler</strong></td>
 <td align="center">2/5</td>
-<td>I was use it for my university laboratory works and practice works</td>
+<td>I was use it for my university laboratory and practice works</td>
+</tr>
+<tr>
+<td></td>
+<td align="center"></td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td>library</td>
+<td align="center"><strong>telebot/pyTelegramBotAPI</strong></td>
+<td align="center">4/5</td>
+<td>Used it in my <a href="/projects/bots">Telegram Bots projects</a></td>
+</tr>
+<tr>
+<td>library</td>
+<td align="center"><strong>requests</strong></td>
+<td align="center">4/5</td>
+<td>Used it in many projects where need access to REST API and GET/POST access to web-pages</td>
+</tr>
+<tr>
+<td>library</td>
+<td align="center"><strong>tkinter</strong></td>
+<td align="center">3/5</td>
+<td>I was use it for create GUI in <a href="/bots/kiwi_tickets_parser">Kiwi Tickets Parser</a></td>
+</tr>
+<tr>
+<td>library</td>
+<td align="center"><strong>re</strong></td>
+<td align="center">4/5</td>
+<td>Regular expressions inside the Python can be need in some algorithms</a></td>
+</tr>
+<tr>
+<td>library</td>
+<td align="center"><strong>sklearn</strong></td>
+<td align="center">1/5</td>
+<td>I was use it for <a href="/projects/ml_first_step_ua/">University project about Machine Learning</a></td>
 </tr>
 <tr>
 <td></td>
@@ -178,13 +214,13 @@ Simple table my experience in programming:
 <tr>
 <td>framework</td>
 <td align="center"><strong>Jupyter</strong></td>
-<td align="center">4/5</td>
-<td><em>Used: mathplotlib,Pandas.</em> <br> I was use Jupyter and Jupyter-Lab for build markdown-python notebooks and presentations (Rise)</td>
+<td align="center">✅</td>
+<td><em>Used: mathplotlib, Pandas.</em> <br> I was use Jupyter and Jupyter-Lab for build markdown-python notebooks and presentations (Rise)</td>
 </tr>
 <tr>
 <td>framework</td>
 <td align="center"><strong>Bootstrap 4</strong></td>
-<td align="center">4/5</td>
+<td align="center">✅</td>
 <td>Just understood how use it and have practice experience</td>
 </tr>
 <tr>
@@ -202,8 +238,8 @@ Simple table my experience in programming:
 <tr>
 <td>data interchange</td>
 <td align="center"><strong>JSON</strong>, <strong>XML</strong></td>
-<td align="center">4/5</td>
-<td>I was use it for configurate a enviroments, save data and parse it</td>
+<td align="center">✅</td>
+<td>I was use it for configurate a enviroments, save data, in REST API's and parse it</td>
 </tr>
 <tr>
 <td></td>
@@ -215,7 +251,7 @@ Simple table my experience in programming:
 <td>query language</td>
 <td align="center"><strong>SQL</strong></td>
 <td align="center">4/5</td>
-<td>I was use in my projects for make a query's to DB</td>
+<td>I was use in my projects for make a query's to DB (PostgreSQL, SQLAlchemy)</td>
 </tr>
 <tr>
 <td>query language</td>
@@ -238,7 +274,7 @@ Simple table my experience in programming:
 <tr>
 <td>markup language</td>
 <td align="center"><strong>Markdown</strong>, <strong>reStructuredText</strong></td>
-<td align="center">5/5</td>
+<td align="center">✅</td>
 <td>Just text markup language</td>
 </tr>
 <tr>
@@ -262,7 +298,7 @@ Simple table my experience in programming:
 <tr>
 <td>IDE</td>
 <td align="center"><strong>VS Code</strong></td>
-<td align="center">&lt;3</td>
+<td align="center">✅</td>
 <td>Migrated on it from Atom, Notepad ++ and Visual Studio *. <br> Added Vimium and many extensions</td>
 </tr>
 <tr>
@@ -280,13 +316,13 @@ Simple table my experience in programming:
 <tr>
 <td>ideologies</td>
 <td align="center"><strong>Functional paradigm</strong></td>
-<td align="center">4/5</td>
+<td align="center">✅</td>
 <td>Basic knowledge for programmist today</td>
 </tr>
 <tr>
 <td>ideologies</td>
 <td align="center"><strong>OOP</strong></td>
-<td align="center">3/5</td>
+<td align="center">✅</td>
 <td>Less experience, don't worked on big projects</td>
 </tr>
 <tr>
@@ -298,8 +334,8 @@ Simple table my experience in programming:
 <tr>
 <td>metodologies</td>
 <td align="center"><strong>Kanban</strong></td>
-<td align="center">4/5</td>
-<td>Scrum and same else metodologies use on private projects and in a civic activities</td>
+<td align="center">✅</td>
+<td>Scrum and same else metodologies was used on some projects and in a civic activities</td>
 </tr>
 <tr>
 <td></td>
@@ -310,13 +346,13 @@ Simple table my experience in programming:
 <tr>
 <td>instruments</td>
 <td align="center"><strong>Jira</strong></td>
-<td align="center">4/5</td>
+<td align="center">✅</td>
 <td>I was use IT on commertial projects</td>
 </tr>
 <tr>
 <td>instruments</td>
 <td align="center"><strong>Trello</strong></td>
-<td align="center">5/5</td>
+<td align="center">✅</td>
 <td>It's easy :D</td>
 </tr>
 <tr>
@@ -324,6 +360,18 @@ Simple table my experience in programming:
 <td align="center"><strong>GitHub</strong></td>
 <td align="center">5/5</td>
 <td>I love it! &lt;3</td>
+</tr>
+<tr>
+<td>instruments</td>
+<td align="center"><strong>cron</strong></td>
+<td align="center">✅</td>
+<td>Used for run programs in loop.</td>
+</tr>
+<tr>
+<td>instruments</td>
+<td align="center"><strong>grep</strong></td>
+<td align="center">✅</td>
+<td>Used in bash scripts for extract info in console.</td>
 </tr>
 <tr>
 <td></td>
@@ -394,7 +442,7 @@ _[up][]_
 
 <h2 id="cv"><a href="/cv">Cirriculum Vitae</a></h2>
 
-#### [How I create it story..](/blog/cv)
+#### _["How I create it?" article](/blog/cv)_ _lang:[🇷🇺](ru)_
 
 _[up][]_
 

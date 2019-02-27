@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Dmytro Hoi - projects</title><link href="http://hoi.pp.ua/" rel="alternate"></link><link href="http://hoi.pp.ua/feeds/projects.atom.xml" rel="self"></link><id>http://hoi.pp.ua/</id><updated>2019-02-26T08:01:00+02:00</updated><entry><title>Bots</title><link href="http://hoi.pp.ua/projects/bots/" rel="alternate"></link><published>2019-02-26T08:01:00+02:00</published><updated>2019-02-26T08:01:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:hoi.pp.ua,2019-02-26:/projects/bots/</id><summary type="html">&lt;p&gt;Краткое описание всех разработаных ботов.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Что такое бот?&lt;/h2&gt;</content><category term="bots"></category><category term="lang:[🇷🇺](ru)"></category></entry><entry><title>Sites adventures</title><link href="http://hoi.pp.ua/projects/site/" rel="alternate"></link><published>2019-02-22T18:01:00+02:00</published><updated>2019-02-22T18:01:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:hoi.pp.ua,2019-02-22:/projects/site/</id><summary type="html">&lt;p&gt;История о долгих скитаниях этого сайта на просторах сети и о создании своего персонального места в Интернетах.&lt;/p&gt;</summary><content type="html">&lt;p&gt;If I will start remind all my try's make personal site - I will do it too long.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Dmytro Hoi - projects</title><link href="http://hoi.pp.ua/" rel="alternate"></link><link href="http://hoi.pp.ua/feeds/projects.atom.xml" rel="self"></link><id>http://hoi.pp.ua/</id><updated>2019-02-26T08:01:00+02:00</updated><entry><title>Bots</title><link href="http://hoi.pp.ua/projects/bots/" rel="alternate"></link><published>2019-02-26T08:01:00+02:00</published><updated>2019-02-26T08:01:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:hoi.pp.ua,2019-02-26:/projects/bots/</id><summary type="html">&lt;p&gt;Краткое описание всех разработаных ботов.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img style="float: right; height=40%; width=40%;" src="/images/projects/bots.png" alt="Bots from Dmytro Hoi"&gt;&lt;/p&gt;
+&lt;h2&gt;Что такое Telegram-бот?&lt;/h2&gt;
+&lt;p&gt;Определенный скрипт, который выполняет функцию ответа на пользовательский запрос. Запросом может быть как сообщение, так и нажатие кнопки либо отправка команды (&lt;code&gt;/&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Бот может работать как в виде пошагового сбора информации (формы), так и, например, полноценными порталами с учетными записями и уникальными рассылками. Кроме того, скрипт бота может взаимодействовать с сайтами по API, с базами данных и т.д.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Боты&lt;/h2&gt;
+&lt;h3&gt;Bitrix24 Integration Bot&lt;/h3&gt;
+&lt;p&gt;Бот интеграции Битрикс24 в Телеграм. По умолчанию выполняет задачу постановки "Задачи" внутри системы. Дополнительный функционал представляет собой отправку уведомлений о постановке задач в Битрикс24 в Телеграм сотрудникам.&lt;/p&gt;
+&lt;!–– _[Статья о боте..](/bots/bitrix24_integr_bot)_ ––&gt;
+
+&lt;h3&gt;Reminder Bot&lt;/h3&gt;
+&lt;p&gt;Бот отправляет сообщения о надобности принимать витамины в определенное время. Информацию о количестве и времени пользователь выбирает вначале работы с ботом. Для администратора, также, доступна функция отправки опроса в виде рассылки пользователям бота, а также статистика количества людей.&lt;/p&gt;
+&lt;h3&gt;Google Spreadsheets Integration Bot&lt;/h3&gt;
+&lt;p&gt;Бот добавляет определенный контент в Google Таблицу по API.&lt;/p&gt;
+&lt;h3&gt;Make Bot Form-bot&lt;/h3&gt;
+&lt;p&gt;Бот-форма для создания собственных ботом - постановки задачи мне о создании нового бота, либо скрипта.&lt;/p&gt;
+&lt;h3&gt;Vitamin Form-bot&lt;/h3&gt;
+&lt;p&gt;Бот-форма собирает информацию и на основании данных подбирает нужные пользователю витамины.&lt;/p&gt;
+&lt;h3&gt;Bitrix24 Statistic Bot&lt;/h3&gt;
+&lt;p&gt;Бот создающий отчеты о последних изменениях в системе Битрикс24.&lt;/p&gt;
+&lt;hr&gt;</content><category term="bots"></category><category term="lang:[🇷🇺](ru)"></category></entry><entry><title>Sites adventures</title><link href="http://hoi.pp.ua/projects/site/" rel="alternate"></link><published>2019-02-22T18:01:00+02:00</published><updated>2019-02-22T18:01:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:hoi.pp.ua,2019-02-22:/projects/site/</id><summary type="html">&lt;p&gt;История о долгих скитаниях этого сайта на просторах сети и о создании своего персонального места в Интернетах.&lt;/p&gt;</summary><content type="html">&lt;p&gt;If I will start remind all my try's make personal site - I will do it too long.&lt;/p&gt;
 &lt;p&gt;First was try - on &lt;code&gt;narod&lt;/code&gt; hosting.. After that - WordPress, pure HTML and many else.&lt;/p&gt;
 &lt;p&gt;{not ended..}&lt;/p&gt;</content><category term="site"></category><category term="projects"></category><category term="first"></category><category term="lang:[🇷🇺](ru)"></category></entry><entry><title>Kiwi Tickets Parser</title><link href="http://hoi.pp.ua/projects/kiwi_tickets_parser/" rel="alternate"></link><published>2019-01-31T11:01:00+02:00</published><updated>2019-02-02T18:30:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:hoi.pp.ua,2019-01-31:/projects/kiwi_tickets_parser/</id><summary type="html">&lt;p&gt;Скрипт с интерфейсом для создания партнерских ссылок на покупку билетов с сайта Kiwi.com.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Цель&lt;/h2&gt;
 &lt;p&gt;Создать скрипт, который бы в автоматическом режиме находил самые дешевые билеты 
 и создавал партнерские ссылки на них для публикации в Telegram канале на тему 
 туризма (travel-channel).&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2&gt;Инструментарий&lt;/h2&gt;
 &lt;p&gt;Основной язык: Python 3.6&lt;/p&gt;
 &lt;p&gt;Библиотеки:&lt;/p&gt;
@@ -18,4 +39,56 @@
 &lt;li&gt;
 &lt;p&gt;tkinter - создание интерфейса для программы.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content><category term="airparsebot"></category><category term="projects"></category><category term="lang:[🇷🇺](ru)"></category></entry></feed>
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Алгоритм&lt;/h2&gt;
+&lt;p&gt;Скрипт отправляет запрос, в зависимости от потребностей пользователя (меню настройки запроса), и выдает полученную инфомацию о билетах, в заложенном в скрипте виде, для каждого авиарейса с сайта Kiwi.com. Внутри используется requests запрос который по API получает информацию в JSON о авиарейсах и переведя этот json в объект Python из этого объекта выбирается нужная информация.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Интерфейс программы Kiwi Tickets Parser" src="/images/projects/kiwi_tickets_parser.jpg"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Код&lt;/h2&gt;
+&lt;p&gt;Ниже представлено часть кода программы:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;headers = { &amp;#39;apiKey&amp;#39;: settings.API_KEY }
+URL = &amp;#39;https://kiwicom-prod.apigee.net/v2/search&amp;#39;
+
+request = get(URL, params=payload, headers=headers)
+content = request.json()
+
+text.delete(1.0, END)
+text.insert(END, &amp;#39;\n\tОновлено: &amp;#39; + datetime.now().strftime(&amp;#39;%H:%M&amp;#39;))
+
+if not content.get(&amp;#39;data&amp;#39;): return text.insert(END, f&amp;#39;\n\n\tВозникла ошибка! \n\n\t{(content.get(&amp;quot;fault&amp;quot;) if content.get(&amp;quot;fault&amp;quot;) else content.get(&amp;quot;message&amp;quot;))}&amp;#39;)
+
+affilid = settings.AFFILID
+
+CURR_SYMBOL = {
+    &amp;#39;EUR&amp;#39;: &amp;#39;€&amp;#39;,
+    &amp;#39;UAH&amp;#39;: &amp;#39;₴&amp;#39;,
+    &amp;#39;USD&amp;#39;: &amp;#39;$&amp;#39;
+}
+
+curr = CURR_SYMBOL.get(payload[&amp;#39;curr&amp;#39;], payload[&amp;#39;curr&amp;#39;])
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Иная информация защищена авторскими правами..&lt;/strong&gt;&lt;/p&gt;</content><category term="airparsebot"></category><category term="projects"></category><category term="lang:[🇷🇺](ru)"></category></entry><entry><title>Machine Learning - First steps</title><link href="http://hoi.pp.ua/projects/ml_first_step_ua/" rel="alternate"></link><published>2019-01-07T18:30:00+02:00</published><updated>2019-01-07T18:30:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:hoi.pp.ua,2019-01-07:/projects/ml_first_step_ua/</id><summary type="html">&lt;p&gt;Перші спроби зрозуміти машинне навчання в рамках навчання в Харківському національному університеті радіоелектроніки.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Це проект було виконано для реферату в рамках навчання в Харківському національному університеті радіоелектроніки на спеціальності "Системний аналіз".&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/dmytrohoi/ml_first_step_ua/"&gt;Далі наведено README.md з репозиторію проекту&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Machine Learning - First steps (UA)&lt;/h2&gt;
+&lt;p&gt;This repository containing files for article(like a course work) about Machine learning when writing for Kharkiv National University of Radioelectronics course. 
+In the work I use Dementions Tree for classificate standart "Iris Flower" (Fisher) task.
+All materials write on ukrainian language.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;В цьому репозиторії містяться файли до реферату (майже курсової роботи) про Машинне навчання який написаний для курсу в Харківському національному університеті радіоелектроніки.&lt;/p&gt;
+&lt;p&gt;В роботі було використано Дерева рішень для стандартної задачі класифікації "Рисових квітів" (Фішер).&lt;/p&gt;
+&lt;p&gt;Всі матеріали написані українською мовою.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;В роботі використано багато Інтернет-джерел посилання на які наведено в "СПИСКУ ЛІТЕРАТУРИ"&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Залежності&lt;/h3&gt;
+&lt;p&gt;В ході роботи використано пакети:
+ - pandas - для роботи з csv таблицями
+ - scipy - створення моделі&lt;/p&gt;
+&lt;h3&gt;Як подивитись результат?&lt;/h3&gt;
+&lt;p&gt;Перш за все пропоную звернути увагу на текстову роботу, представлену в файлі &lt;code&gt;ml.doc&lt;/code&gt;.
+ Для того, щоб оцінити виконану роботу з моделювання треба запустити файл &lt;code&gt;load_tree.py&lt;/code&gt; який завантажує натреновану модель з файлу &lt;code&gt;iris.pkl&lt;/code&gt; та перевіряє дані відповідно.
+Модель дерева візуалізована на зображенні &lt;code&gt;iris.jpg&lt;/code&gt; та записана в файл &lt;code&gt;iris.dot&lt;/code&gt;.&lt;/p&gt;</content><category term="ml"></category><category term="projects"></category><category term="lang:[🇺🇦](ua)"></category></entry></feed>

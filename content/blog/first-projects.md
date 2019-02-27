@@ -52,7 +52,7 @@ In this post I telling you summary about my projects. Sorry for my English level
 
 **Result**: more 6 bots **done**.
 
-**More_links**: [Bitrix24 Integration Bot](/bots/bitrix24_integr_bot), [Reminder Bot](/bots/reminder_bot), [Google Spreadsheets Integration Bot](/bots/gsheet_integr_bot), [Make Bot Form-bot](/bots/mbfbot), [Vitamin Form-bot](/bots/vitamin_formbot), [Bitrix24 Statistic Bot](/bots/bitrix24_stat_bot)
+**More_links**: Bitrix24 Integration Bot, Reminder Bot, Google Spreadsheets Integration Bot, Make Bot Form-bot, Vitamin Form-bot, Bitrix24 Statistic Bot
 
 _I have some a projects where used Eel framework for Python, HTML, JS, CSS. But I can't add it, because this info are confidential and created for work and working scripts(banking sphere)._
 

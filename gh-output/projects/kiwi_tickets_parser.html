@@ -149,6 +149,7 @@
 <p>Создать скрипт, который бы в автоматическом режиме находил самые дешевые билеты 
 и создавал партнерские ссылки на них для публикации в Telegram канале на тему 
 туризма (travel-channel).</p>
+<hr>
 <h2>Инструментарий</h2>
 <p>Основной язык: Python 3.6</p>
 <p>Библиотеки:</p>
@@ -163,6 +164,37 @@
 <p>tkinter - создание интерфейса для программы.</p>
 </li>
 </ul>
+<hr>
+<h2>Алгоритм</h2>
+<p>Скрипт отправляет запрос, в зависимости от потребностей пользователя (меню настройки запроса), и выдает полученную инфомацию о билетах, в заложенном в скрипте виде, для каждого авиарейса с сайта Kiwi.com. Внутри используется requests запрос который по API получает информацию в JSON о авиарейсах и переведя этот json в объект Python из этого объекта выбирается нужная информация.</p>
+<p><img alt="Интерфейс программы Kiwi Tickets Parser" src="/images/projects/kiwi_tickets_parser.jpg"></p>
+<hr>
+<h2>Код</h2>
+<p>Ниже представлено часть кода программы:</p>
+<div class="highlight"><pre><span></span>headers = { &#39;apiKey&#39;: settings.API_KEY }
+URL = &#39;https://kiwicom-prod.apigee.net/v2/search&#39;
+
+request = get(URL, params=payload, headers=headers)
+content = request.json()
+
+text.delete(1.0, END)
+text.insert(END, &#39;\n\tОновлено: &#39; + datetime.now().strftime(&#39;%H:%M&#39;))
+
+if not content.get(&#39;data&#39;): return text.insert(END, f&#39;\n\n\tВозникла ошибка! \n\n\t{(content.get(&quot;fault&quot;) if content.get(&quot;fault&quot;) else content.get(&quot;message&quot;))}&#39;)
+
+affilid = settings.AFFILID
+
+CURR_SYMBOL = {
+    &#39;EUR&#39;: &#39;€&#39;,
+    &#39;UAH&#39;: &#39;₴&#39;,
+    &#39;USD&#39;: &#39;$&#39;
+}
+
+curr = CURR_SYMBOL.get(payload[&#39;curr&#39;], payload[&#39;curr&#39;])
+</pre></div>
+
+
+<p><strong>Иная информация защищена авторскими правами..</strong></p>
   </div>
   <div class="tag-cloud">
     <p>
