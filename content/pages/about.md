@@ -440,9 +440,11 @@ _[up][]_
 
 -----
 
-<h2 id="cv"><a href="/cv">Cirriculum Vitae</a></h2>
+<h2 id="cv"><a href="/blog/cv">Cirriculum Vitae</a></h2>
 
-#### _["How I create it?" article](/blog/cv)_ _lang:[🇷🇺](ru)_
+#### _["How I create it?" article](/blog/cv)_
+
+_lang:\[🇷🇺\]\(ru\)_
 
 _[up][]_
 

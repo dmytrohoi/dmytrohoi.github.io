@@ -1,7 +1,7 @@
 Title: First blog post, or "What about your projects?"
 Date: 2018-11-09 08:01
 Modified: 2019-02-26 19:08
-Tags: first, blog, projects, lang:[🇬🇧](en)
+Tags: first, blog, python, projects, lang:[🇬🇧](en)
 Slug: projects
 Summary: This article about my first projects.
 

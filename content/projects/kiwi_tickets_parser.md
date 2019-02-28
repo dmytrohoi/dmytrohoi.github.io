@@ -1,7 +1,7 @@
 Title: Kiwi Tickets Parser
 Date: 2019-01-31 11:01
 Modified: 2019-02-02 18:30
-Tags: airparsebot, projects, lang:[🇷🇺](ru)
+Tags: parser, python, tkinter, requests, projects, lang:[🇷🇺](ru)
 Slug: kiwi_tickets_parser
 Summary: Скрипт с интерфейсом для создания партнерских ссылок на покупку билетов с сайта Kiwi.com.
 

@@ -1,6 +1,6 @@
 Title: Bots
 Date: 2019-02-26 08:01
-Tags: bots, lang:[🇷🇺](ru)
+Tags: bots, python, lang:[🇷🇺](ru)
 Slug: bots
 Summary: Краткое описание всех разработаных ботов.
 

@@ -12,9 +12,6 @@ SITEDESCRIPTION = 'On this site you find my articles, links to social networks a
 SITELOGO = '/images/profile.png'
 FAVICON = '/images/favicon.ico'
 
-# INDEX_SAVE_AS = 'blog/index.html'
-# INDEX_URL = 'category/blog'
-
 PATH = 'content'
 STATIC_PATHS = ['images', 'pages', 'pdfs', 'extra']
 PAGE_PATHS = ['pages']
@@ -43,12 +40,13 @@ RSS_FEED_SUMMARY_ONLY = True
 MAIN_MENU = True
 
 LINKS = (
-    ('Blog', '/blog.html'),
-    ('Books', '/books.html'),
-    ('Projects', '/projects.html'),
-    ('progSrc', '/progsrc.html'),
-    ('About', '/about.html'),
-    # ('Podcasts', '/podcasts.html'),
+    ('Blog', '/blog'),
+    ('Books', '/books'),
+    ('Projects', '/projects'),
+    ('progSrc', '/progsrc'),
+    ('About', '/about'),
+    ('CV', '/blog/cv'),
+    # ('Podcasts', '/podcasts'),
 )
 
 # Social widget
@@ -61,13 +59,13 @@ SOCIAL = (
     ('fas fa-pen-square', 'http://hoi.pp.ua/progsrc'),
     ('fab fa-dev', 'http://dev.to/dmytrohoi'),
     # ('fas fa-broadcast-tower', '/podcasts'),
-    ('fas fa-rss-square', '/feeds/all.atom.xml'),
+    # ('fas fa-rss-square', '/feeds/all.atom.xml'),
 )
 
 MENUITEMS = (
-    ('Archives', '/archives.html'),
-    ('Categories', '/categories.html'),
-    ('Tags', '/tags.html'),
+    ('Archives', '/archives'),
+    ('Categories', '/categories'),
+    ('Tags', '/tags'),
 )
 
 CATEGORY_IMAGES = ['projects', 'blog']
