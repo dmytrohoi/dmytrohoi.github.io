@@ -33,11 +33,11 @@ Slug: about
 <div id="row">
   <div id="one" style="padding: 0 20px 0 0;">
   <h2 id="brief">Brief</h2>
-<p>I'm 21 y.o. Junior Python programmer and I live in Kharkiv, Ukraine.</p>
+<p>I'm 22 y.o. Strong Junior Python programmer and I live in Kharkiv, Ukraine.</p>
 <br>
-<p>Now I work in Microbilt Corp. (Kennesaw, Georgia, USA) on position 'Site Scraping Script Developer' in Kharkiv office.</p>
+<p>Now I work in GlobalLogic Ukraine on Automation QA Consultant position in Kharkiv office.</p>
 <br>
-I strive for a job in Python, automation and innovation implementing. Where using newest frameworks and technologies it's a my priority. I like to disassemble and evaluate according to given criteria something and evaluate in for UX.
+I strive for a job in Python, automation and innovation implementing. Where using newest frameworks and technologies it's a priority. I like to disassemble and evaluate according to given criteria something and using UX principles.
 </div>
 
 <div id="two" style="padding: 0 0 0 10px;">
@@ -73,11 +73,17 @@ _[up][]_
 
 #### __Official__:
 
+##### GlobalLogic
+
+**Position**: Automation QA Consultant (05/2019 - now)
+
+**Info**: Test implementation, using Python 2.7, appium and pytest, creating process automation scripts, implementation custom test framework and personal workflow instruments. Working with Ruby language and Android devices.
+
 ##### Microbilt
 
-**Position**: Site Scraping Script Developer (07/2018 - … )
+**Position**: Site Scraping Script Developer (07/2018 - 05/2019)
 
-**Info**: WebQL programing, using RegExp and Python, creating misc automation scripts. I created a several propose to implementing new technologies and instruments in a team communicaJust text markup languagestion and UX, performance boosting.
+**Info**: WebQL programing, using RegExp and Python, creating misc automation scripts. I created a several propose to implementing new technologies and instruments in a team communication. Like a text markup languages, templates for common mail and UX principles for performance boosting.
 
 ##### National University of Radioelectronics
 
@@ -91,7 +97,7 @@ _[up][]_
 
 **Position**: Python programmer (05/2018 - … )
 
-**Info**: On state Febrary 2019 I was create 4 bots and 2 standalone scripts. In code used libs: requests, telebot, pyTelegramBotAPI and bs4. Working with Bitrix and Kiwi REST API's.
+**Info**: On state Febrary 2019 I was create 4 bots and 2 standalone scripts. In code used libs: requests, telebot, pyTelegramBotAPI and bs4. Working with Bitrix and Kiwi REST API's, SQLite and SQLAlchemy, process workflows implementation to Telegram bots and etc.
 
 ##### Gwara Media
 
@@ -101,7 +107,7 @@ _[up][]_
 
 ##### FaqInDecor
 
-**Position**: Trainee Social Media Manager (\*\*/2017 - \*\*+3weeks/2017)
+**Position**: Trainee Social Media Manager (11/2017 - 12/2017)
 
 **Info**: Tried research a loaded duties about content making.
 
@@ -143,7 +149,7 @@ Simple table my experience in programming:
 <td>programming language</td>
 <td align="center"><strong>Python</strong></td>
 <td align="center">4/5</td>
-<td><em>Version: 3</em> <br> <em>Many <a href="/blog/projects">projects</a>!</em> <br> I learning this language, use for a common tasks and build a project on it</td>
+<td><em>Version: 2.7, 3.7</em> <br> <em>Many <a href="/blog/projects">personal projects</a> and working experience.</em> <br> I was learning this language, use for a common tasks and build a personal project on it, implementation custom testing framework and using for a testing</td>
 </tr>
 <tr>
 <td>programming language</td>
@@ -154,7 +160,7 @@ Simple table my experience in programming:
 <tr>
 <td>programming language</td>
 <td align="center"><strong>sh (Bash)</strong></td>
-<td align="center">3/5</td>
+<td align="center">4/5</td>
 <td>I use it everyday in Ubuntu</td>
 </tr>
 <tr>
@@ -180,6 +186,18 @@ Simple table my experience in programming:
 <td align="center"><strong>telebot/pyTelegramBotAPI</strong></td>
 <td align="center">4/5</td>
 <td>Used it in my <a href="/projects/bots">Telegram Bots projects</a></td>
+</tr>
+<tr>
+<td>library</td>
+<td align="center"><strong>pytest</strong></td>
+<td align="center">4/5</td>
+<td>Making own test framework using pytest and testing scripts on it.</td>
+</tr>
+<tr>
+<td>library</td>
+<td align="center"><strong>appium</strong></td>
+<td align="center">4/5</td>
+<td>Debugging and testing Android devices on 8 and 9 versions. Making scripts using it and ADB tools</td>
 </tr>
 <tr>
 <td>library</td>
@@ -215,7 +233,7 @@ Simple table my experience in programming:
 <td>framework</td>
 <td align="center"><strong>Jupyter</strong></td>
 <td align="center">✅</td>
-<td><em>Used: mathplotlib, Pandas.</em> <br> I was use Jupyter and Jupyter-Lab for build markdown-python notebooks and presentations (Rise)</td>
+<td><em>Used: mathplotlib, Pandas.</em> <br> I was use Jupyter and Jupyter-Lab for build markdown-python notebooks, personal and project databases and presentations (with Rise extension)</td>
 </tr>
 <tr>
 <td>framework</td>
@@ -239,7 +257,7 @@ Simple table my experience in programming:
 <td>data interchange</td>
 <td align="center"><strong>JSON</strong>, <strong>XML</strong></td>
 <td align="center">✅</td>
-<td>I was use it for configurate a enviroments, save data, in REST API's and parse it</td>
+<td>I was use it for configure a environments, save data, in REST API's and parse it</td>
 </tr>
 <tr>
 <td></td>
@@ -269,7 +287,7 @@ Simple table my experience in programming:
 <td>markup language style sheet</td>
 <td align="center"><strong>HTML</strong>, <strong>CSS</strong></td>
 <td align="center">4/5</td>
-<td>I was use for myself private projects-sites and for commercial projects-sites (sample, gwaramedia.com.ua )</td>
+<td>I was use for myself private projects-sites and for commercial projects-sites (sample, gwaramedia.com.ua)</td>
 </tr>
 <tr>
 <td>markup language</td>
@@ -333,9 +351,15 @@ Simple table my experience in programming:
 </tr>
 <tr>
 <td>metodologies</td>
+<td align="center"><strong>Agile</strong></td>
+<td align="center">✅</td>
+<td>Using in a commerce software developing</td>
+</tr>
+<tr>
+<td>metodologies</td>
 <td align="center"><strong>Kanban</strong></td>
 <td align="center">✅</td>
-<td>Scrum and same else metodologies was used on some projects and in a civic activities</td>
+<td>Scrum and same else methodologies was used on some projects and in a civic activities</td>
 </tr>
 <tr>
 <td></td>
@@ -347,7 +371,13 @@ Simple table my experience in programming:
 <td>instruments</td>
 <td align="center"><strong>Jira</strong></td>
 <td align="center">✅</td>
-<td>I was use IT on commertial projects</td>
+<td>I was use IT on commercial projects</td>
+</tr>
+<tr>
+<td>instruments</td>
+<td align="center"><strong>Jama</strong></td>
+<td align="center">✅</td>
+<td>Requirements management system in commercial projects</td>
 </tr>
 <tr>
 <td>instruments</td>
@@ -371,7 +401,13 @@ Simple table my experience in programming:
 <td>instruments</td>
 <td align="center"><strong>grep</strong></td>
 <td align="center">✅</td>
-<td>Used in bash scripts for extract info in console.</td>
+<td>Used in bash scripts for extract info in console</td>
+</tr>
+<tr>
+<td>instruments</td>
+<td align="center"><strong>adb</strong></td>
+<td align="center">✅</td>
+<td>Android debugger tool with UIAutomator and etc</td>
 </tr>
 <tr>
 <td></td>

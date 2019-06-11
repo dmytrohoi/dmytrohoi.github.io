@@ -11,9 +11,9 @@ Slug: progsrc
 
 Большая часть информации дублируется в GitBook - [https://progsrc.gitbook.io/wiki/](https://progsrc.gitbook.io/wiki/).
 
-[@progSrc](http://t.me/progsrc) либо [progsrc.ml](http://progsrc.ml/)
+[@progSrc](http://t.me/progsrc) либо почитать используя короткую ссылку - [progsrc.ml](http://progsrc.ml/)
 
-<iframe src="https://progsrc.telepost.blog/" width="100%" height="600" align="left">
+<iframe src="https://t.me/s/progsrc" width="100%" height="600" align="left">
 
 -----
 /** автор не несет ответственности за содержание материалов *
