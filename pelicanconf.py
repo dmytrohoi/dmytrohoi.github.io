@@ -58,6 +58,8 @@ SOCIAL = (
     ('fab fa-twitter-square', 'http://twitter.com/dmytrohoi'),
     ('fas fa-pen-square', 'http://hoi.pp.ua/progsrc'),
     ('fab fa-dev', 'http://dev.to/dmytrohoi'),
+    ('fas fa-h-square', 'http://habr.com/users/dmytrohoi'),
+    ('fas fa-hryvnia', 'http://hoi.pp.ua/send_money'), # https://send.monobank.com.ua/r1uZbSUT
     # ('fas fa-broadcast-tower', '/podcasts'),
     # ('fas fa-rss-square', '/feeds/all.atom.xml'),
 )

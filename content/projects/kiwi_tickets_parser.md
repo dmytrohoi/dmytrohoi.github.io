@@ -1,15 +1,15 @@
 Title: Kiwi Tickets Parser
 Date: 2019-01-31 11:01
 Modified: 2019-02-02 18:30
-Tags: parser, python, tkinter, requests, projects, lang:[🇷🇺](ru)
+Tags: parser, python, tkinter, requests, projects, lang:russian
 Slug: kiwi_tickets_parser
 Summary: Скрипт с интерфейсом для создания партнерских ссылок на покупку билетов с сайта Kiwi.com.
 
 
 ## Цель
 
-Создать скрипт, который бы в автоматическом режиме находил самые дешевые билеты 
-и создавал партнерские ссылки на них для публикации в Telegram канале на тему 
+Создать скрипт, который бы в автоматическом режиме находил самые дешевые билеты
+и создавал партнерские ссылки на них для публикации в Telegram канале на тему
 туризма (travel-channel).
 
 -----
@@ -49,7 +49,10 @@ Summary: Скрипт с интерфейсом для создания парт
     text.delete(1.0, END)
     text.insert(END, '\n\tОновлено: ' + datetime.now().strftime('%H:%M'))
 
-    if not content.get('data'): return text.insert(END, f'\n\n\tВозникла ошибка! \n\n\t{(content.get("fault") if content.get("fault") else content.get("message"))}')
+    if not content.get('data'):
+        return text.insert(END, f'\n\n\tВозникла ошибка! \n\n\t{
+            (content.get("fault") if content.get("fault") else content.get("message"))
+        }')
 
     affilid = settings.AFFILID
 

@@ -3,4 +3,4 @@ Slug: bots/create
 save_as: bots/create.html
 
 
-Тут будет текст.
+{Тут будет текст.}

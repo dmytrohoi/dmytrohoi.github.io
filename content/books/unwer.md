@@ -1,6 +1,6 @@
 Title: ЮНВЕР
 Date: 2018-11-10 23:00
-Tags: unwer, books, lang:[🇺🇦](ua)
+Tags: unwer, books, lang:ukrainian
 Slug: unwer
 Summary: Перший розділ книжки ЮНВЕР.
 

@@ -1,8 +1,8 @@
 Title: Bots
 Date: 2019-02-26 08:01
-Tags: bots, python, lang:[🇷🇺](ru)
+Tags: bots, python, lang:russian
 Slug: bots
-Summary: Краткое описание всех разработаных ботов.
+Summary: Краткое описание разработаных Telegram ботов.
 
 <img style="float: right; height=40%; width=40%;" src="/images/projects/bots.png" alt="Bots from Dmytro Hoi">
 

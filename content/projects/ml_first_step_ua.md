@@ -1,6 +1,6 @@
 Title: Machine Learning - First steps
 Date: 2019-01-07 18:30
-Tags: ml, python, skilearn, projects, lang:[🇺🇦](ua)
+Tags: ml, python, skilearn, projects, lang:ukrainian
 Slug: ml_first_step_ua
 Summary: Перші спроби зрозуміти машинне навчання в рамках навчання в Харківському національному університеті радіоелектроніки.
 
@@ -13,7 +13,7 @@ Summary: Перші спроби зрозуміти машинне навчан�
 Machine Learning - First steps (UA)
 ---
 
-This repository containing files for article(like a course work) about Machine learning when writing for Kharkiv National University of Radioelectronics course. 
+This repository containing files for article(like a course work) about Machine learning when writing for Kharkiv National University of Radioelectronics course.
 In the work I use Dementions Tree for classificate standart "Iris Flower" (Fisher) task.
 All materials write on ukrainian language.
 
