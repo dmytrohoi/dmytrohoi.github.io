@@ -27,6 +27,7 @@ EXTRA_PATH_METADATA = {
     'extra/LICENSE.md': {'path': 'LICENSE.md'},
     'extra/README.md': {'path': 'README.md'},
     'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/workflow.yml': {'path': '.github/workflows/auto-gh-pages.yml'},
 }
 
 # Feed generation is usually not desired when developing
