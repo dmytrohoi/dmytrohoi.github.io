@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Dmytro Hoi</title><link href="https://dmytrohoi.com/" rel="alternate"></link><link href="https://dmytrohoi.com/feeds/all-en.atom.xml" rel="self"></link><id>https://dmytrohoi.com/</id><updated>2019-02-26T19:08:00+02:00</updated><entry><title>Bitrix24 Integration Bot</title><link href="https://dmytrohoi.com/bots/bitrix24_integr_bot/" rel="alternate"></link><published>2019-02-26T08:01:00+02:00</published><updated>2019-02-26T08:01:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:dmytrohoi.com,2019-02-26:/bots/bitrix24_integr_bot/</id><summary type="html">&lt;p&gt;Бот для создания задач и получения уведомлений о назначенных задачах.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Цель&lt;/h2&gt;
+&lt;p&gt;Бот интеграции Битрикс24 в Телеграм. По умолчанию выполняет задачу постановки "Задачи" внутри системы. Дополнительный функционал представляет собой отправку уведомлений о постановке задач в Битрикс24 в Телеграм сотрудникам.&lt;/p&gt;
+&lt;h2&gt;Инструменты&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Python 3.7&lt;/li&gt;
+&lt;li&gt;requests&lt;/li&gt;
+&lt;li&gt;Bitrix24 API&lt;/li&gt;
+&lt;li&gt;telebot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Описание реализации&lt;/h2&gt;
+&lt;p&gt;Была поставлена задача сделать бота интеграции Битрикс в Телеграм для постановки задачи. Это стало возможно благодаря Битрикс API, и было описано диаграмой процесса.&lt;/p&gt;
+&lt;p&gt;{ В процессе написания.. }&lt;/p&gt;</content><category term="bots"></category><category term="lang:russian"></category></entry><entry><title>Bots</title><link href="https://dmytrohoi.com/projects/bots/" rel="alternate"></link><published>2019-02-26T08:01:00+02:00</published><updated>2019-02-26T08:01:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:dmytrohoi.com,2019-02-26:/projects/bots/</id><summary type="html">&lt;p&gt;Краткое описание разработаных Telegram ботов.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img style="float: right; height=40%; width=40%;" src="/images/projects/bots.png" alt="Bots from Dmytro Hoi"&gt;&lt;/p&gt;
+&lt;h2&gt;Что такое Telegram-бот?&lt;/h2&gt;
+&lt;p&gt;Определенный скрипт, который выполняет функцию ответа на пользовательский запрос. Запросом может быть как сообщение, так и нажатие кнопки либо отправка команды (&lt;code&gt;/&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Бот может работать как в виде пошагового сбора информации (формы), так и, например, полноценными порталами с учетными записями и уникальными рассылками. Кроме того, скрипт бота может взаимодействовать с сайтами по API, с базами данных и т.д.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Боты&lt;/h2&gt;
+&lt;h3&gt;Bitrix24 Integration Bot&lt;/h3&gt;
+&lt;p&gt;Бот интеграции Битрикс24 в Телеграм. По умолчанию выполняет задачу постановки "Задачи" внутри системы. Дополнительный функционал представляет собой отправку уведомлений о постановке задач в Битрикс24 в Телеграм сотрудникам.&lt;/p&gt;
+&lt;!–– _[Статья о боте..](/bots/bitrix24_integr_bot)_ ––&gt;
+
+&lt;h3&gt;Reminder Bot&lt;/h3&gt;
+&lt;p&gt;Бот отправляет сообщения о надобности принимать витамины в определенное время. Информацию о количестве и времени пользователь выбирает вначале работы с ботом. Для администратора, также, доступна функция отправки опроса в виде рассылки пользователям бота, а также статистика количества людей.&lt;/p&gt;
+&lt;h3&gt;Google Spreadsheets Integration Bot&lt;/h3&gt;
+&lt;p&gt;Бот добавляет определенный контент в Google Таблицу по API.&lt;/p&gt;
+&lt;h3&gt;Make Bot Form-bot&lt;/h3&gt;
+&lt;p&gt;Бот-форма для создания собственных ботом - постановки задачи мне о создании нового бота, либо скрипта.&lt;/p&gt;
+&lt;h3&gt;Vitamin Form-bot&lt;/h3&gt;
+&lt;p&gt;Бот-форма собирает информацию и на основании данных подбирает нужные пользователю витамины.&lt;/p&gt;
+&lt;h3&gt;Bitrix24 Statistic Bot&lt;/h3&gt;
+&lt;p&gt;Бот создающий отчеты о последних изменениях в системе Битрикс24.&lt;/p&gt;
+&lt;hr&gt;</content><category term="bots"></category><category term="python"></category><category term="lang:russian"></category></entry><entry><title>Sites adventures / Приключение сайта</title><link href="https://dmytrohoi.com/projects/site/" rel="alternate"></link><published>2019-02-22T18:01:00+02:00</published><updated>2019-02-22T18:01:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:dmytrohoi.com,2019-02-22:/projects/site/</id><summary type="html">&lt;p&gt;История о долгих скитаниях этого сайта на просторах сети и о создании своего персонального места в Интернетах.&lt;/p&gt;</summary><content type="html">&lt;p&gt;{in progress...}&lt;/p&gt;</content><category term="site"></category><category term="projects"></category><category term="lang:russian"></category></entry><entry><title>Kiwi Tickets Parser</title><link href="https://dmytrohoi.com/projects/kiwi_tickets_parser/" rel="alternate"></link><published>2019-01-31T11:01:00+02:00</published><updated>2019-02-02T18:30:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:dmytrohoi.com,2019-01-31:/projects/kiwi_tickets_parser/</id><summary type="html">&lt;p&gt;Скрипт с интерфейсом для создания партнерских ссылок на покупку билетов с сайта Kiwi.com.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Цель&lt;/h2&gt;
+&lt;p&gt;Создать скрипт, который бы в автоматическом режиме находил самые дешевые билеты
+и создавал партнерские ссылки на них для публикации в Telegram канале на тему
+туризма (travel-channel).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Инструментарий&lt;/h2&gt;
+&lt;p&gt;Основной язык: Python 3.6&lt;/p&gt;
+&lt;p&gt;Библиотеки:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;requests - отправка запроса на сервер по REST API;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;json - преобразование JSON ответа от сервера в объект Python;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;tkinter - создание интерфейса для программы.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Алгоритм&lt;/h2&gt;
+&lt;p&gt;Скрипт отправляет запрос, в зависимости от потребностей пользователя (меню настройки запроса), и выдает полученную инфомацию о билетах, в заложенном в скрипте виде, для каждого авиарейса с сайта Kiwi.com. Внутри используется requests запрос который по API получает информацию в JSON о авиарейсах и переведя этот json в объект Python из этого объекта выбирается нужная информация.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Интерфейс программы Kiwi Tickets Parser" src="/images/projects/kiwi_tickets_parser.jpg"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Код&lt;/h2&gt;
+&lt;p&gt;Ниже представлено часть кода программы:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;headers = { &amp;#39;apiKey&amp;#39;: settings.API_KEY }
+URL = &amp;#39;https://kiwicom-prod.apigee.net/v2/search&amp;#39;
+
+request = get(URL, params=payload, headers=headers)
+content = request.json()
+
+text.delete(1.0, END)
+text.insert(END, &amp;#39;\n\tОновлено: &amp;#39; + datetime.now().strftime(&amp;#39;%H:%M&amp;#39;))
+
+if not content.get(&amp;#39;data&amp;#39;):
+    return text.insert(END, f&amp;#39;\n\n\tВозникла ошибка! \n\n\t{
+        (content.get(&amp;quot;fault&amp;quot;) if content.get(&amp;quot;fault&amp;quot;) else content.get(&amp;quot;message&amp;quot;))
+    }&amp;#39;)
+
+affilid = settings.AFFILID
+
+CURR_SYMBOL = {
+    &amp;#39;EUR&amp;#39;: &amp;#39;€&amp;#39;,
+    &amp;#39;UAH&amp;#39;: &amp;#39;₴&amp;#39;,
+    &amp;#39;USD&amp;#39;: &amp;#39;$&amp;#39;
+}
+
+curr = CURR_SYMBOL.get(payload[&amp;#39;curr&amp;#39;], payload[&amp;#39;curr&amp;#39;])
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Иная информация защищена авторскими правами..&lt;/strong&gt;&lt;/p&gt;</content><category term="parser"></category><category term="python"></category><category term="tkinter"></category><category term="requests"></category><category term="projects"></category><category term="lang:russian"></category></entry><entry><title>Machine Learning - First steps</title><link href="https://dmytrohoi.com/projects/ml_first_step_ua/" rel="alternate"></link><published>2019-01-07T18:30:00+02:00</published><updated>2019-01-07T18:30:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:dmytrohoi.com,2019-01-07:/projects/ml_first_step_ua/</id><summary type="html">&lt;p&gt;Перші спроби зрозуміти машинне навчання в рамках навчання в Харківському національному університеті радіоелектроніки.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Це проект було виконано для реферату в рамках навчання в Харківському національному університеті радіоелектроніки на спеціальності "Системний аналіз".&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/dmytrohoi/ml_first_step_ua/"&gt;Далі наведено README.md з репозиторію проекту&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Machine Learning - First steps (UA)&lt;/h2&gt;
+&lt;p&gt;This repository containing files for article(like a course work) about Machine learning when writing for Kharkiv National University of Radioelectronics course.
+In the work I use Dementions Tree for classificate standart "Iris Flower" (Fisher) task.
+All materials write on ukrainian language.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;В цьому репозиторії містяться файли до реферату (майже курсової роботи) про Машинне навчання який написаний для курсу в Харківському національному університеті радіоелектроніки.&lt;/p&gt;
+&lt;p&gt;В роботі було використано Дерева рішень для стандартної задачі класифікації "Рисових квітів" (Фішер).&lt;/p&gt;
+&lt;p&gt;Всі матеріали написані українською мовою.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;В роботі використано багато Інтернет-джерел посилання на які наведено в "СПИСКУ ЛІТЕРАТУРИ"&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Залежності&lt;/h3&gt;
+&lt;p&gt;В ході роботи використано пакети:
+ - pandas - для роботи з csv таблицями
+ - scipy - створення моделі&lt;/p&gt;
+&lt;h3&gt;Як подивитись результат?&lt;/h3&gt;
+&lt;p&gt;Перш за все пропоную звернути увагу на текстову роботу, представлену в файлі &lt;code&gt;ml.doc&lt;/code&gt;.
+ Для того, щоб оцінити виконану роботу з моделювання треба запустити файл &lt;code&gt;load_tree.py&lt;/code&gt; який завантажує натреновану модель з файлу &lt;code&gt;iris.pkl&lt;/code&gt; та перевіряє дані відповідно.
+Модель дерева візуалізована на зображенні &lt;code&gt;iris.jpg&lt;/code&gt; та записана в файл &lt;code&gt;iris.dot&lt;/code&gt;.&lt;/p&gt;</content><category term="ml"></category><category term="python"></category><category term="skilearn"></category><category term="projects"></category><category term="lang:ukrainian"></category></entry><entry><title>ЮНВЕР</title><link href="https://dmytrohoi.com/books/unwer/" rel="alternate"></link><published>2018-11-10T23:00:00+02:00</published><updated>2018-11-10T23:00:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:dmytrohoi.com,2018-11-10:/books/unwer/</id><summary type="html">&lt;p&gt;Перший розділ книжки ЮНВЕР.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="UNWER - ЮНВЕР" src="/images/unwer.jpg"&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Текст книги&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Молода пара, яка переселилась на станцію майже рік тому працюють на різних роботах та ввечері раніше відвідували зону відпочинку, але з моменту сварки з лідерами музичних груп та спільноти музикантів - перестали. Відтоді Тоні не грає на гітарі, а Дженіфер не співає в одному з клубів і не займається пошуком способу розповсюдити свої принципи, але в філософських пошуках та постійному роздумі щодо подальшої долі станції непомічає як насувається шторм..&lt;/p&gt;
+&lt;h3&gt;Мрія&lt;/h3&gt;
+&lt;h4&gt;Вони&lt;/h4&gt;
+&lt;p&gt;Вони прокинулись в кристально білій кімнаті. Стіни були наповнені білим кольором настільки, що «сонце», яке на цій планеті сходило з іншої сторони й завжди проходило більше ніж 60% небосхилу стрімко впадаючи за горизонт, вдавалось такою ж крапкою, як і ліхтарі що автоматично вмикались о 6 ранку. Одне лише те, що вікно на середині якого вмить завмерло небесне світило відрізнялось від стін коричнево-червоною нижньою половиною.&lt;/p&gt;
+&lt;p&gt;— Доброго ранку, сонечко! - задзвенів голоса чарівної білявки, яка вмить вискочила з-під простирадла та швидким рухом схопила дві чашки кави з корицею й сунула одну з них своєму сусіду по кроваті.&lt;/p&gt;
+&lt;p&gt;Незрозуміло було, чи то сонце так вплинуло на білявку, чи то вона зверталась до Томі з прискіпливістю бажаючи щоб він всеж розплющив очі й насолодився її чарівністю в білому світлі їх спальні. Кавовий автомат в той час вже рухався на своє постійне місце дислокації.&lt;/p&gt;
+&lt;p&gt;— Як же добре, що ми купили цей кавовий автомат! Бігати й варити каву в таку ранню пору було ще тим випробування. - промовив Тоні допомагаючи руками своїм очам, які ніяк не хотіли відкриватись.&lt;/p&gt;
+&lt;p&gt;— Сонечко, таке відчуття, що ти кожен день бігав й робив нам каву! - сміючись й трохи з тцькуванням промовила дівчина милуючись пейзажом у вікні.
+— Ой, все! Джей. Джееей. Зізнавайся, тобі ж це подобалося? - спитав він попиваючи свіжозварену каву та дивлячись на Дженніфер своїм коронним поглядом.
+— Подобалось - відповіла та, й вдаючи з себе ображену через кілька секунд вже вдоволено посміхнулась й додала, - Але коли це роблять за мене, мені більше подобається.&lt;/p&gt;
+&lt;p&gt;Так починався ще один «день» на новій для людства планеті. Хоча з самим словом «новій» можна ще довго сперечатися.&lt;/p&gt;
+&lt;p&gt;В цьому місці люди поселились більш ніж 15 років тому, але такий, здавалося б, короткий термін не дуже завадив намірам земної молоді с кожним роком все більше і більше заселяти цю планету. Цивільні лінії, за попереднім проходженням «Допуску всесвітнього рівню №2759», саме так офіційно іменується процедура дозволу на переліт в один кінець до станції «Юнвер», запустили всього п'ять років тому. За цей час станція, яка налічувала 876 мешканців на момент прийняття рішення про дозвіл на цивільні польоти в один кінець, збільшилась до 3654 пасажирів та збільшила об'єм своєї площі у 5 раз.&lt;/p&gt;
+&lt;p&gt;ПараТоні та Дженніфер Лойд переселились в «Юнвер» майже рік тому. Здібний хлопчина 23 років, який на землі працював у дослідному інституті робототехніки, влаштувався керівником группою будівельних роботів які реалізують проект нових районів станції. Така робота тут потрібна, адже кожен другий тиждень місяця на цій планеті стає, щонайменше, на 1% людяніше, і це невзираючи на постійних туристів та науковців усіх мастей. Супутниця Тоні була молодша від нього на два роки й на землі допомогала людям «літати», а в новому «місті» працює тренером з спортивної гімнастики та танців. Насправді, «літали» під її керівництвом лише на батуті, й максимум вверх ногами, але це був лише шанс знайти місце для головних тренувань - гімнастики та танців.&lt;/p&gt;
+&lt;p&gt;Тож, поки ми тут розглядали наших героїв та їх нове місце проживання, не хвилюйтеся я потім розкажу вам детальніше про цей «оазис» посеред холодного космосу сусідньої від вас галактики, парочка вже вдягнулась й вибігла на вулицю.&lt;/p&gt;
+&lt;p&gt;Вулицею це місце назвати важко, але 5 гектарів поверхні планети треба було об'днати в систему, то ж тонелі, які було прокладено під поверхнею та в саме серце станції «Юнвер», було прийнято називати вулицею. Так, поспішаючи до дверей «шлюбки» наші герої встигли 12 разів поздороватись з мешканцями сусідніх квартир-кейсів та два рази зупинитись щоб стримати невгомонний сміх. Ці чотириста метрів здавались для них цілою вічністю, навіть враховуючи те, що так починався кожен їх ранок.&lt;/p&gt;
+&lt;p&gt;Сівши в капсули шлюбок, кабіни «вакуумного метрополітену» що використовуються як основний вид транспорту на станції, й в останню мить до закриття автоматичних дверей розірвавши поцілунок наша пара роз'їхалась по роботам.&lt;/p&gt;
+&lt;h4&gt;Колоністи&lt;/h4&gt;
+&lt;p&gt;Що робити та як прожити майже 3 тисячам молодикам на поверхні та під поверхнею далекої планети? Так-так, більшість проживаючих - молоді люди і більшість споруд знаходяться нижче рівня 0 на «Юнвері». Це ж не означає, що тут не цікаво?&lt;/p&gt;
+&lt;p&gt;Добре, добре.. Розкажу.&lt;/p&gt;
+&lt;p&gt;Отже, десять років вчені досліджували цю планету найдієвішим для науки методом - емпіричним, та зрозуміли, що реальної цінності окрім більшої в 3 рази площі поверхні планети відносно Землі та унікальних умов на ній, в тому числі й «земної» гравітації, у «Юнвера» немає. В цей момент світ видихнув й почав тішити себе тим, що на якій-небудь іншій планеті обов'язково щось знайдуть. Казати наскільки це марні сподівання, я думаю не треба. Розумієте самі.&lt;/p&gt;
+&lt;p&gt;Але молоді такі умови сподобались. Тут і розвиток, і весь контент та товар який є в світі, майже безкоштовно, й лише ціною того, що ти покращуєш умови проживання вчених. Вчені, зрештою, ще не втратили надію на те, що щось корисне в цій планеті всеж є. Так і живуть: молодь в пошуках себе вирушає з переповненої Землі на станцію «Юнвер» де допомагає розвитку колонії, підтримці життя вчених та паралельно розвивається духовно й творчо. Кожен вечір, коли робота завершується, місцеві творчі хаби набиваються доповна музикантами, письменниками та творцями всіх різновидів. За п'ять років з-під пера колоністів вийшло більш ніж дві сотні світових бестселерів, пів сотні «золотих» альбомів та чверть найкассовіших, за цей період, кінострічок.&lt;/p&gt;
+&lt;p&gt;Цьому явищу є логічне пояснення, і це ви зрозумієте далі.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Книга знаходиться на стадії створення.. Перепрошую за незручності..&lt;/em&gt;&lt;/p&gt;</content><category term="unwer"></category><category term="books"></category><category term="lang:ukrainian"></category></entry><entry><title>CV experiment / Эксперимент с резюме</title><link href="https://dmytrohoi.com/blog/cv/" rel="alternate"></link><published>2018-11-09T08:01:00+02:00</published><updated>2018-11-10T00:30:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:dmytrohoi.com,2018-11-09:/blog/cv/</id><summary type="html">&lt;p&gt;Рассказ о том, как менялось мое резюме со временем проведенным в IT индустрии.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Header for Dmytro Hoi CV article" src="/images/projects/cv_header.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Описание&lt;/h2&gt;
+&lt;p&gt;Глядя на десятки одинаковых резюме, которые берутся со стандартных шаблонов MSOffice, я понимаю что этим не показать свою уникальность. Одинаковые полупустые страницы с грубым перечислением и отсутствием акцентов с форматированием - именно такой вид имеют большинство резюме на рынке.&lt;/p&gt;
+&lt;p&gt;Отвратительные резюме "под копирку" для меня оказались вызовом, и таким образом было решено продумать идею своего резюме. После попыток определить ценность такого подхода, оказалось что оценка уникальности у HR имеет малую важность, в итоге было принято решение переделать еще ближе к простому виду, но сохранить долю уникального оформления.&lt;/p&gt;
+&lt;p&gt;За всеми этими изменениями можно проследить прочитав информацию ниже.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Актуальная версия:&lt;/strong&gt; &lt;a href="#четвертое-резюмеpdfshoicv_10-2019pdf"&gt;4&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Развитие резюме&lt;/h2&gt;
+&lt;h3&gt;&lt;a href="/pdfs/HoiCV_06-2018.pdf"&gt;Первое резюме&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="First CV" src="/images/projects/cv_headers/HoiCV_06-2018.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Мотивация:&lt;/strong&gt; Попасть в IT, получить начальную позицию разработчика.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Описание:&lt;/strong&gt; В первой попытке реализован подход к резюме в концепции подачи навыков как логотипов и разделения всей информации на "карты" или визитки. Блоки структурированы по каждой отдельной категории информации. Все карточки расположены поверх полупрозрачной фоновой иконки, которая обозначаем суть самого блока.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Время в IT:&lt;/strong&gt; 0 дней&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Уровень в IT:&lt;/strong&gt; Начальный&lt;/p&gt;
+&lt;h3&gt;&lt;a href="/pdfs/HoiCV_10-2018.pdf"&gt;Второе резюме&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Second CV" src="/images/projects/cv_headers/HoiCV_10-2018.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Мотивация:&lt;/strong&gt; Обновление данных, заготовка на получение новых предложений.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Описание:&lt;/strong&gt; Опыт работы в резюме предпочтительнее, поэтому блок проектов (ввиду отсутствия таких) был удален со страницы, а блок опыта работы - расширен. Кроме того, было добавлено описание-сводка информации по типу стандартных резюме (дань стандартам индустрии).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Время в IT:&lt;/strong&gt; 3 месяца&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Уровень в IT:&lt;/strong&gt; Ученик&lt;/p&gt;
+&lt;h3&gt;&lt;a href="/pdfs/HoiCV_02-2019.pdf"&gt;Третье резюме&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Third CV" src="/images/projects/cv_headers/HoiCV_02-2019.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Мотивация:&lt;/strong&gt; Поиск новой позиции.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Описание:&lt;/strong&gt; Был изменен подход к описанию информации. Илюстарции полностью убраны, информация переструктурирована. Для идентификации разделов выбран подход "командной строки". Вектор визуального повествования сместился на акценты в заголовках.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Время в IT:&lt;/strong&gt; 7 месяцев&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Уровень в IT:&lt;/strong&gt; Ниже среднего&lt;/p&gt;
+&lt;h3&gt;&lt;a href="/pdfs/HoiCV_10-2019.pdf"&gt;Четвертое резюме&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Fourth CV" src="/images/projects/cv_headers/HoiCV_10-2019.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Мотивация:&lt;/strong&gt; Обновление данных для актуализации информации.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Описание:&lt;/strong&gt; Была добавлена дополнительная информация. Пересмотрено описание исходя из существующего опыта.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Время в IT:&lt;/strong&gt; больше года&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Уровень в IT:&lt;/strong&gt; Средний&lt;/p&gt;
+&lt;hr&gt;</content><category term="cv"></category><category term="projects"></category><category term="lang:russian"></category></entry><entry><title>First blog post, or "What about your projects?"</title><link href="https://dmytrohoi.com/blog/projects/" rel="alternate"></link><published>2018-11-09T08:01:00+02:00</published><updated>2019-02-26T19:08:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:dmytrohoi.com,2018-11-09:/blog/projects/</id><summary type="html">&lt;p&gt;This article about my first projects.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Dmytro Hoi Projects" src="/images/blog_projects.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Intro&lt;/h2&gt;
+&lt;p&gt;Hello, visitor!&lt;/p&gt;
+&lt;p&gt;In this post I tell you summary about my projects. Sorry for my English.. I start write my english articles and publish here today. Let's read and have fun. ;)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Projects&lt;/h2&gt;
+&lt;h4&gt;Name: &lt;a href="/projects/kiwi_tickets_parser"&gt;Kiwi Tickets Parser&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Info&lt;/strong&gt;: &lt;a href="/projects/kiwi_tickets_parser"&gt;Article about parser of Kiwi site&lt;/a&gt; on TKinter GUI and Python. This project was been proposed by &lt;a href="http://fb.com/tskovalchuk"&gt;Taras Kovalchuk&lt;/a&gt; for his Telegram Channel &lt;a href="http://t.me/fairtrip"&gt;@fairtrip&lt;/a&gt; for free. After that, the same functional program was sold to another the travel's Telegram Channel owner.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Language&lt;/strong&gt;: Python 3.6&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Library's&lt;/strong&gt;: Tkinter, requests, json&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;: Fully done and sold &lt;strong&gt;100%&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;More_links&lt;/strong&gt;: &lt;em&gt;none&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Name: &lt;a href="/projects/site"&gt;Site&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Info&lt;/strong&gt;: First my try to launch personal site has been done on 2011-2012 year. In this time I'm was learning in the school and interests a web and etc. I try: hosting/self-hosted server side; WordPress, Ucoz and same site-making platform and CMS. And after that I has been understand - "If I really want friendly and interesting personal site, than need to do that in clear HTML, CSS and JS." But since I don't want to do this manually, in this year I try use SSG instruments. &lt;a href="/projects/site"&gt;See this article for details..&lt;/a&gt;..&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Language&lt;/strong&gt;: Python 3 and Markdown&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Library's&lt;/strong&gt;: Pelican and extentions, sys.argv&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;: you see - &lt;strong&gt;done&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;More_links&lt;/strong&gt;: &lt;em&gt;--yogamid.narod.ua&lt;/em&gt;, &lt;em&gt;--dmytrohoi.xyz--&lt;/em&gt;, &lt;em&gt;--detor.info--&lt;/em&gt;, &lt;em&gt;--detor.xyz--&lt;/em&gt;, dmytrohoi.github.io, hoi.pp.ua&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Name: &lt;a href="/projects/bots"&gt;Bots&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Info&lt;/strong&gt;: I do Telegram Bots in my free time. &lt;a href="/projects/bots"&gt;This article about it&lt;/a&gt;..&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Language&lt;/strong&gt;: Python 3.6&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Library's&lt;/strong&gt;: telebot/python-telegram-bot, json, redis/shelve/postgreSql+sqlAlchemy&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;: more 6 bots &lt;strong&gt;done&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;More_links&lt;/strong&gt;: Bitrix24 Integration Bot, Reminder Bot, Google Spreadsheets Integration Bot, Make Bot Form-bot, Vitamin Form-bot, Bitrix24 Statistic Bot&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I have more projects in which I use the Eel Framework for Python, HTML, JS, CSS. But I can not say more, because this information is confidential.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;You can also read about me at &lt;a href="/about.html"&gt;About page&lt;/a&gt;.. (Work expirience, Civic activities, Skills and etc)..&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href="/blog/cv"&gt;Next article&lt;/a&gt; about CV-experiments. &lt;em&gt;lang:russian&lt;/em&gt;&lt;/p&gt;</content><category term="first"></category><category term="blog"></category><category term="python"></category><category term="projects"></category><category term="lang:english"></category></entry><entry><title>R:NURE</title><link href="https://dmytrohoi.com/podcasts/rnure/" rel="alternate"></link><published>2018-11-09T08:01:00+02:00</published><updated>2019-02-26T15:30:00+02:00</updated><author><name>Dmytro Hoi</name></author><id>tag:dmytrohoi.com,2018-11-09:/podcasts/rnure/</id><summary type="html">&lt;p&gt;Summary about Radio NURE project / Коротко о проекте Радио ХНУРЭ&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;English part&lt;/em&gt;&lt;/p&gt;
+&lt;h4&gt;Name: &lt;a href="https://soundcloud.com/rnure"&gt;R:NURE&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Info&lt;/strong&gt;: "R:NURE" it's a student podcasts-radio in Kharkiv National University of Radioelectronics. This initiative is about social activity inside the University. It was helping students and teachers get more information about the University. Project is closed now, but you can listen all availabled podcasts on &lt;a href="http://soundcloud.com/rnure"&gt;SoundCloud&lt;/a&gt;. &lt;em&gt;IT part in this project - site and UI/UX social media pages and etc.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;: has been work for several months and is now &lt;strong&gt;closed&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;More_links&lt;/strong&gt;: &lt;em&gt;&lt;a href="http://fb.com/radionure"&gt;Facebook R:NURE&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;</content><category term="rnure"></category><category term="podcasts"></category><category term="lang:english"></category><category term="lang:russian"></category></entry></feed>
