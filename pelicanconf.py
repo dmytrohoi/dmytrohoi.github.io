@@ -56,10 +56,10 @@ SOCIAL = (
     ('fab fa-github-square', 'http://github.com/dmytrohoi'),
     ('fab fa-linkedin', 'http://linkedin.com/in/dmytrohoi'),
     ('fab fa-twitter-square', 'http://twitter.com/dmytrohoi'),
-    ('fas fa-pen-square', 'http://hoi.pp.ua/progsrc'),
+    ('fas fa-pen-square', '/progsrc'),
     ('fab fa-dev', 'http://dev.to/dmytrohoi'),
     ('fas fa-h-square', 'http://habr.com/users/dmytrohoi'),
-    ('fas fa-hryvnia', 'http://hoi.pp.ua/send_money'), # https://send.monobank.com.ua/r1uZbSUT
+    ('fas fa-hryvnia', '/send_money'), # https://send.monobank.com.ua/r1uZbSUT
     # ('fas fa-broadcast-tower', '/podcasts'),
     # ('fas fa-rss-square', '/feeds/all.atom.xml'),
 )
