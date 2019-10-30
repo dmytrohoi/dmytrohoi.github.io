@@ -26,4 +26,4 @@ jobs:
     - name: Make static pages
       run: pelican content -o gh-output -s publishconf.py
     - name: Create gh-pages branch
-      run: ghp-import gh-output -r https://${{ secrets.ACESS_TOKEN }}@github.com/$GITHUB_REPOSITORY.git -p -b master
+      run: ghp-import gh-output -r https://${{ secrets.ACESS_TOKEN }}@github.com/$GITHUB_REPOSITORY.git -f -p -b master
