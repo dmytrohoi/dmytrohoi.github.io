@@ -1,7 +1,11 @@
 name: Automake GitHub site on Pelican
 
 on:
-  push
+  push:
+    branches:
+      - '*'         # matches every branch
+      - '*/*'       # matches every branch containing a single '/'
+      - '!master'
 
 jobs:
   build:
