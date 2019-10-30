@@ -27,7 +27,6 @@ EXTRA_PATH_METADATA = {
     'extra/LICENSE.md': {'path': 'LICENSE.md'},
     'extra/README.md': {'path': 'README.md'},
     'extra/robots.txt': {'path': 'robots.txt'},
-    'extra/freelancehunt-13b8d0ccd374ee3.txt': {'path': 'freelancehunt-13b8d0ccd374ee3.txt'},
 }
 
 # Feed generation is usually not desired when developing
