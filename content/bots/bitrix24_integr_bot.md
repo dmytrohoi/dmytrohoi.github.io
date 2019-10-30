@@ -13,7 +13,7 @@ Summary: Бот для создания задач и получения уве�
 
 - Python 3.7
 - requests
-- Tkinter
-- Kiwi Affiliate API
+- Bitrix24 API
+- telebot
 
 { В процессе написания.. }
