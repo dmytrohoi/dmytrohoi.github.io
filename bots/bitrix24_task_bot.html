@@ -36,20 +36,25 @@
 </script>
 <!-- End Google Analytics -->
 
-    <meta name="author" content="Dmytro Hoi" />
-    <meta name="description" content="On this site you find my articles, links to social networks and CV. 
-Nice to meet you here!" />
+<meta name="author" content="Dmytro Hoi" />
+<meta name="description" content="Бот для создания задач и получения уведомлений о назначенных задачах в Telegram используя Bitrix API." />
+<meta name="keywords" content="bots, lang:russian">
+
 <meta property="og:site_name" content="Dmytro Hoi"/>
-<meta property="og:type" content="blog"/>
-<meta property="og:title" content="Dmytro Hoi"/>
-<meta property="og:description" content="On this site you find my articles, links to social networks and CV. 
-Nice to meet you here!"/>
+<meta property="og:title" content="Bitrix24 Task Bot"/>
+<meta property="og:description" content="Бот для создания задач и получения уведомлений о назначенных задачах в Telegram используя Bitrix API."/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="https://dmytrohoi.com"/>
+<meta property="og:url" content="https://dmytrohoi.com/bots/bitrix24_task_bot"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2019-02-26 08:01:00+02:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://dmytrohoi.com/author/dmytro-hoi.html">
+<meta property="article:section" content="bots"/>
+<meta property="article:tag" content="bots"/>
+<meta property="article:tag" content="lang:russian"/>
 <meta property="og:image" content="/images/profile.png">
 
-  <title>Dmytro Hoi &ndash;     Archives
-</title>
+  <title>Dmytro Hoi &ndash; Bitrix24 Task Bot</title>
 
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
@@ -129,31 +134,91 @@ Nice to meet you here!"/>
 
 <article class="single">
   <header>
-    <h1>    Archives
-</h1>
+      
+    <h1 id="bitrix24_task_bot">Bitrix24 Task Bot</h1>
+    <p>
+          Posted on February 26, 2019 in <a href="https://dmytrohoi.com/bots">bots</a>
+
+
+        &#8226; 1 min read
+    </p>
   </header>
+
+
   <div>
-    <dl>
-      <dt>October 23, 2019</dt>
-      <dd><a href="https://dmytrohoi.com/blog/pytest_cases_from_file">Параметризация из файла в py.test</a></dd>
-      <dt>February 26, 2019</dt>
-      <dd><a href="https://dmytrohoi.com/bots/bitrix24_task_bot">Bitrix24 Task Bot</a></dd>
-      <dt>February 26, 2019</dt>
-      <dd><a href="https://dmytrohoi.com/projects/bots">Bots</a></dd>
-      <dt>January 31, 2019</dt>
-      <dd><a href="https://dmytrohoi.com/projects/kiwi_tickets_parser">Kiwi Tickets Parser</a></dd>
-      <dt>January 07, 2019</dt>
-      <dd><a href="https://dmytrohoi.com/projects/ml_first_step_ua">Machine Learning - First steps</a></dd>
-      <dt>November 10, 2018</dt>
-      <dd><a href="https://dmytrohoi.com/books/unwer">ЮНВЕР</a></dd>
-      <dt>November 09, 2018</dt>
-      <dd><a href="https://dmytrohoi.com/blog/cv">CV experiment / Эксперимент с резюме</a></dd>
-      <dt>November 09, 2018</dt>
-      <dd><a href="https://dmytrohoi.com/blog/projects">First blog post, or "What about your projects?"</a></dd>
-      <dt>November 09, 2018</dt>
-      <dd><a href="https://dmytrohoi.com/podcasts/rnure">R:NURE</a></dd>
-    </dl>
+    <p><img alt="Bitrix Bot Header" src="/images/bots/bitrix_bot_header.jpg"></p>
+<p><em>Бот для создания задач и получения уведомлений о назначенных задачах.</em></p>
+<hr>
+<h2>Требования</h2>
+<p><strong>Главное</strong>: Бот интеграции с Битрикс24.</p>
+<p><strong>Основное назначение</strong>: создание "Задачи" внутри системы.</p>
+<p><strong>Дополнительный функционал</strong>: рассылка сотрудникам уведомлений о постановке задач.</p>
+<hr>
+<h2>Инструменты</h2>
+<p><strong>Бот</strong>:</p>
+<ul>
+<li>Python 3.7</li>
+<li>requests</li>
+<li>telebot</li>
+<li>Cloud Server</li>
+</ul>
+<p><strong>Сервер</strong>:</p>
+<ul>
+<li>Bitrix24 API</li>
+</ul>
+<p><strong>Клиент</strong>:</p>
+<ul>
+<li>Telegram</li>
+</ul>
+<hr>
+<h2>Описание реализации</h2>
+<p>Была поставлена задача сделать бота интеграции Битрикс в Телеграм для постановки задачи. Это стало возможно благодаря Битрикс API, и было описано диаграмой процесса.</p>
+<p>В результате, был проведен анализ Битрикс24 API и описан процесс последовательного добавления полей и последующей отправки информации через специальный API создания задачи.</p>
+<p>Нотификации же принимались по веб-хуку и отправлялись всем пользователям бота в виде уведомления о новой задачи. Задача парсилась и выдавалась в раскрытом виде по необходимости.</p>
+<hr>
+<h2>Скриншоты</h2>
+<p><img alt="Screen" src="/images/bots/bitrix_bot_0.jpg"></p>
+<p><em>Первичные тесты процесса постановки задачи</em></p>
+<hr>
+<h2>От автора</h2>
+<p>Если ты хочешь заказать бота, обращайся по ссылкам доступным по клику на иконки наже главного меню сайта.</p>
+<p>Найди удобный для себя способ связи и пиши!</p>
+<hr>
   </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://dmytrohoi.com/tag/bots.html">bots</a>
+      <a href="https://dmytrohoi.com/tag/langrussian.html">lang:russian</a>
+    </p>
+  </div>
+
+  <div class="center social-share">
+    <p>    
+</p>
+    <div class="addthis_native_toolbox"></div>
+    <div class="addthis_sharing_toolbox"></div>
+    <div class="addthis_inline_share_toolbox"></div>
+  </div>
+
+
+    <div class="addthis_relatedposts_inline"></div>
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'hoi-pp';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+        Please enable JavaScript to view comments.
+
+</noscript>
+<!-- End Disqus -->
 </article>
 
     <footer>
