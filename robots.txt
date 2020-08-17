@@ -1,2 +1,8 @@
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow: /drafts/
+Disallow: /pdfs/
+Disallow: /donate/
+Disallow: /habr/
+Disallow: /cv/
+Disallow: /mono/
+Disallow: /tg/
